@@ -1,4 +1,4 @@
-update=Tue 27 Mar 2012 10:27:52 NZDT
+update=Tue 27 Mar 2012 20:06:58 NZDT
 last_client=eeschema
 [cvpcb]
 version=1
@@ -46,7 +46,7 @@ LibName18=w_smd_lqfp
 version=1
 [eeschema]
 version=1
-LibDir=/usr/local/share/kicad/library/library;/home/amarburg/workspace/kicad/lib
+LibDir=../kicad_libs/lib
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
