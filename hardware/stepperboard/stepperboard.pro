@@ -1,5 +1,5 @@
-update=Fri 17 Feb 2012 15:16:41 NZDT
-last_client=eeschema
+update=Tue 27 Mar 2012 21:04:41 NZDT
+last_client=cvpcb
 [pcbnew]
 [pcbnew/libraries]
 LibName1=sockets
@@ -15,17 +15,16 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=/auto/home/aaron/workspace/kicad/modules/w_smd_lqfp
 LibName13=/auto/home/aaron/workspace/kicad/modules/Dioden_SMD_RevA_27July2010
-LibDir=/usr/local/share/kicad/library/modules
+LibName14=misc
+LibName15=my_conn
+LibName16=mechanical
+LibName17=ohw-logo
+LibDir=../kicad_libs/modules
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
-LibDir=../../../../../../../workspace/kicad/lib
+LibDir=../kicad_libs/lib
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -75,3 +74,8 @@ LibName37=my_ftdi
 LibName38=misc
 LibName39=/home/amarburg/workspace/kicad/lib/my_conn
 LibName40=/home/amarburg/workspace/kicad/lib/misc
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
