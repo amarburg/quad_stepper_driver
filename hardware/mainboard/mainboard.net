@@ -1,0 +1,1305 @@
+# EESchema Netlist Version 1.1 created  Tue 27 Mar 2012 10:49:56 NZDT
+(
+ ( /4F68075B SM0805  L3 FERRITE {Lib=INDUCTOR}
+  (    1 GNDSERVO )
+  (    2 DGND )
+ )
+ ( /4F557BD8 SIL-1  GND1 TST {Lib=TST}
+  (    1 DGND )
+ )
+ ( /4F615C45 SM0805  C18 10uF {Lib=C}
+  (    1 N-000101 )
+  (    2 DGND )
+ )
+ ( /4F615A5E SM0805  C19 0.1uF {Lib=C}
+  (    1 N-000101 )
+  (    2 DGND )
+ )
+ ( /4F607304 SM0805  R17 10k {Lib=R}
+  (    1 VDD )
+  (    2 /SDIO_CARD_DETECT )
+ )
+ ( /4F606617 SM0805  R15 22k {Lib=R}
+  (    1 VDD )
+  (    2 /SDIO_POWER )
+ )
+ ( /4F60642C SOT23GDS  Q3 MOSFET_P {Lib=MOSFET_P}
+  (    D VDD )
+  (    G /SDIO_POWER )
+  (    S N-000101 )
+ )
+ ( /4F60543E HIROSE_MicroSD_DM3AT  U7 SDCARD_SD_MODE {Lib=SDCARD_SD_MODE}
+  (    1 /SDIO_D2 )
+  (    2 /SDIO_D3 )
+  (    3 /SDIO_CMD )
+  (    4 N-000101 )
+  (    5 /SDIO_CK )
+  (    6 DGND )
+  (    7 /SDIO_D0 )
+  (    8 /SDIO_D1 )
+  (    A /SDIO_CARD_DETECT )
+  (    B DGND )
+  (    S DGND )
+ )
+ ( /4F572CC6 Abracon_ABM3B_xtal  X1 8MHz_18pF {Lib=ABRACON_SMD_CRYSTAL}
+  (    1 /OSC_OUT )
+  (    2 GND )
+  (    3 /OSC_IN )
+  (    4 GND )
+ )
+ ( /4F571C3E KMR_2_smd_pushbutton  SW2 SMD_MICRO_PUSHBUTTON {Lib=SMD_MICRO_PUSHBUTTON}
+  (    1 N-000057 )
+  (    2 N-000098 )
+  (    3 N-000057 )
+  (    4 N-000098 )
+ )
+ ( /4F57193B KMR_2_smd_pushbutton  SW1 SMD_MICRO_PUSHBUTTON {Lib=SMD_MICRO_PUSHBUTTON}
+  (    1 /RESET )
+  (    2 N-000053 )
+  (    3 /RESET )
+  (    4 N-000053 )
+ )
+ ( /4F557991 SM0805  L2 FERRITE {Lib=INDUCTOR}
+  (    1 AGND )
+  (    2 DGND )
+ )
+ ( /4F48A61F SOT23EBC  Q2 NPN {Lib=NPN}
+  (    1 N-000103 )
+  (    2 N-000105 )
+  (    3 VDD )
+ )
+ ( /4F48A12D SM0805  C7 47pF_50V {Lib=C}
+  (    1 DGND )
+  (    2 /USB_DP )
+ )
+ ( /4F489E68 SM0805  C3 15pF {Lib=C}
+  (    1 DGND )
+  (    2 /OSC_OUT )
+ )
+ ( /4F489780 SM0805  D6 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 DGND )
+ )
+ ( /4F48D9C9 pin_array_13x2  P7 CONN_13X2 {Lib=CONN_13X2}
+  (    1 ? )
+  (    2 DGND )
+  (    3 ? )
+  (    4 DGND )
+  (    5 /MOT3_STEP )
+  (    6 DGND )
+  (    7 /MOT3_DIR )
+  (    8 DGND )
+  (    9 /SPI_CHAIN )
+  (   10 /ADC_3 )
+  (   11 /SPI_SCK )
+  (   12 DGND )
+  (   13 /SPI_CS )
+  (   14 DGND )
+  (   15 /SHIFT_REG_ENABLE )
+  (   16 DGND )
+  (   17 ? )
+  (   18 /ADC_4 )
+  (   19 /MOT4_STEP )
+  (   20 DGND )
+  (   21 /MOT4_DIR )
+  (   22 DGND )
+  (   23 VDD )
+  (   24 DGND )
+  (   25 VDD )
+  (   26 DGND )
+ )
+ ( /4F48C530 pin_array_13x2  P6 CONN_13X2 {Lib=CONN_13X2}
+  (    1 VPP )
+  (    2 DGND )
+  (    3 VPP )
+  (    4 DGND )
+  (    5 /MOT1_STEP )
+  (    6 DGND )
+  (    7 /MOT1_DIR )
+  (    8 DGND )
+  (    9 /SPI_MOSI )
+  (   10 /ADC_1 )
+  (   11 /SPI_SCK )
+  (   12 DGND )
+  (   13 /SPI_CS )
+  (   14 DGND )
+  (   15 /SHIFT_REG_ENABLE )
+  (   16 DGND )
+  (   17 /SPI_CHAIN )
+  (   18 /ADC_2 )
+  (   19 /MOT2_STEP )
+  (   20 DGND )
+  (   21 /MOT2_DIR )
+  (   22 DGND )
+  (   23 VDD )
+  (   24 DGND )
+  (   25 VDD )
+  (   26 DGND )
+ )
+ ( /4F3DDCD1 Hirose_UX60-MB-5ST  U6 USB_CON {Lib=USB_MINIB}
+  (    1 /FTDI_VBUS )
+  (    2 N-000041 )
+  (    3 N-000042 )
+  (    4 ? )
+  (    5 DGND )
+  (   SH DGND )
+ )
+ ( /4F3DD78C SM0805  R12 270 {Lib=R}
+  (    1 N-000046 )
+  (    2 N-000090 )
+ )
+ ( /4F3DD23F SM0805  R4 22_1% {Lib=R}
+  (    1 N-000081 )
+  (    2 /USB_DP )
+ )
+ ( /4F23C249 SIL-8  P11 MY_CONN_8 {Lib=MY_CONN_8}
+  (    1 VDD )
+  (    2 /DIO_1 )
+  (    3 /DIO_2 )
+  (    4 /DIO_3 )
+  (    5 /DIO_4 )
+  (    6 /DIO_5 )
+  (    7 /DIO_6 )
+  (    8 DGND )
+ )
+ ( /4F236407 SM0805  C17 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 DGND )
+ )
+ ( /4F20ABD9 LQFP-64  U1 STM32F103RE-LQFP64 {Lib=STM32F103RE-LQFP64}
+  (    1 N-000026 )
+  (    2 N-000107 )
+  (    3 /DIO_1 )
+  (    4 /DIO_2 )
+  (    5 /OSC_IN )
+  (    6 /OSC_OUT )
+  (    7 /RESET )
+  (    8 /MOT1_DIR )
+  (    9 /MOT2_DIR )
+  (   10 /MOT3_DIR )
+  (   11 /MOT4_DIR )
+  (   12 AGND )
+  (   13 VDD )
+  (   14 /MOT1_STEP )
+  (   15 /MOT2_STEP )
+  (   16 /MOT3_STEP )
+  (   17 /MOT4_STEP )
+  (   18 DGND )
+  (   19 VDD )
+  (   20 /ADC_1 )
+  (   21 /ADC_2 )
+  (   22 /ADC_3 )
+  (   23 /ADC_4 )
+  (   24 /DIO_6 )
+  (   25 /USB_DISC )
+  (   26 /DIO_3 )
+  (   27 /DIO_4 )
+  (   28 DGND )
+  (   29 N-000015 )
+  (   30 /SHIFT_REG_ENABLE )
+  (   31 DGND )
+  (   32 VDD )
+  (   33 /SPI_CS )
+  (   34 /SPI_SCK )
+  (   35 /SPI_MISO )
+  (   36 /SPI_MOSI )
+  (   37 /SDIO_CARD_DETECT )
+  (   38 /SDIO_POWER )
+  (   39 /SDIO_D0 )
+  (   40 /SDIO_D1 )
+  (   41 /DIO_5 )
+  (   42 /CON_TX )
+  (   43 /CON_RX )
+  (   44 /USB_DM )
+  (   45 /USB_DP )
+  (   46 /JTAG_TMS )
+  (   47 DGND )
+  (   48 VDD )
+  (   49 /JTAG_TCK )
+  (   50 /JTAG_TDI )
+  (   51 /SDIO_D2 )
+  (   52 /SDIO_D3 )
+  (   53 /SDIO_CK )
+  (   54 /SDIO_CMD )
+  (   55 /JTAG_TDO )
+  (   56 /JTAG_TRST )
+  (   57 N-000098 )
+  (   58 /SERVO1 )
+  (   59 /SERVO2 )
+  (   60 N-000098 )
+  (   61 /SERVO3 )
+  (   62 /SERVO4 )
+  (   63 DGND )
+  (   64 VDD )
+ )
+ ( /4F2325EE MY_CONN_16  P9 MY_CONN_16 {Lib=MY_CONN_16}
+  (    1 VDD )
+  (    2 /SERVO4 )
+  (    3 /SERVO3 )
+  (    4 N-000098 )
+  (    5 /SERVO2 )
+  (    6 /SERVO1 )
+  (    7 N-000098 )
+  (    8 /JTAG_TRST )
+  (    9 /JTAG_TDO )
+  (   10 /SDIO_CMD )
+  (   11 /SDIO_CK )
+  (   12 /SDIO_D3 )
+  (   13 /SDIO_D2 )
+  (   14 /JTAG_TDI )
+  (   15 /JTAG_TCK )
+  (   16 DGND )
+ )
+ ( /4F2325E8 MY_CONN_16  P10 MY_CONN_16 {Lib=MY_CONN_16}
+  (    1 VDD )
+  (    2 /JTAG_TMS )
+  (    3 /USB_DP )
+  (    4 /USB_DM )
+  (    5 /CON_RX )
+  (    6 /CON_TX )
+  (    7 /DIO_5 )
+  (    8 /SDIO_D1 )
+  (    9 /SDIO_D0 )
+  (   10 /SDIO_POWER )
+  (   11 /SDIO_CARD_DETECT )
+  (   12 /SPI_MOSI )
+  (   13 /SPI_MISO )
+  (   14 /SPI_SCK )
+  (   15 /SPI_CS )
+  (   16 DGND )
+ )
+ ( /4F231A18 MY_CONN_16  P2 MY_CONN_16 {Lib=MY_CONN_16}
+  (    1 VDD )
+  (    2 /ADC_1 )
+  (    3 /ADC_2 )
+  (    4 /ADC_3 )
+  (    5 /ADC_4 )
+  (    6 /DIO_6 )
+  (    7 /USB_DISC )
+  (    8 /DIO_3 )
+  (    9 /DIO_4 )
+  (   10 N-000015 )
+  (   11 /SHIFT_REG_ENABLE )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 DGND )
+ )
+ ( /4F231824 MY_CONN_16  P1 MY_CONN_16 {Lib=MY_CONN_16}
+  (    1 VDD )
+  (    2 N-000026 )
+  (    3 N-000107 )
+  (    4 /DIO_1 )
+  (    5 /DIO_2 )
+  (    6 DGND )
+  (    7 /RESET )
+  (    8 /MOT1_DIR )
+  (    9 /MOT2_DIR )
+  (   10 /MOT3_DIR )
+  (   11 /MOT4_DIR )
+  (   12 /MOT1_STEP )
+  (   13 /MOT2_STEP )
+  (   14 /MOT3_STEP )
+  (   15 /MOT4_STEP )
+  (   16 DGND )
+ )
+ ( /4F1D2E7E SM0805  C1 0.1uF {Lib=C}
+  (    1 /FTDI_VBUS )
+  (    2 DGND )
+ )
+ ( /4F1D2E0E SM0805  C4 0.1uF {Lib=C}
+  (    1 /FTDI_3V3 )
+  (    2 DGND )
+ )
+ ( /4F1D2809 SM0805  C16 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 DGND )
+ )
+ ( /4F1D27FF SM0805  C15 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 DGND )
+ )
+ ( /4F1D27F5 SM0805  C14 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 DGND )
+ )
+ ( /4F1D27C1 SM0805  C13 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 AGND )
+ )
+ ( /4F1D2315 SM0805  C12 10uF {Lib=C}
+  (    1 VSERVO )
+  (    2 GNDSERVO )
+ )
+ ( /4F1D230B SM0805  C11 10uF {Lib=C}
+  (    1 VDD )
+  (    2 DGND )
+ )
+ ( /4F1D2228 SM0805  C8 0.1uF {Lib=C}
+  (    1 N-000104 )
+  (    2 GNDSERVO )
+ )
+ ( /4F1D1626 SOD-123LF  D3 SCHOTTKY_2A_30V {Lib=DIODE}
+  (    1 VUSB )
+  (    2 N-000077 )
+ )
+ ( /4F1BDE10 SIL-3  K5 CONN_3 {Lib=CONN_3}
+  (    1 GNDSERVO )
+  (    2 VSERVO )
+  (    3 /SERVO4 )
+ )
+ ( /4F1BDDA0 SIL-3  K4 CONN_3 {Lib=CONN_3}
+  (    1 GNDSERVO )
+  (    2 VSERVO )
+  (    3 /SERVO3 )
+ )
+ ( /4F1BDD70 SIL-3  K3 CONN_3 {Lib=CONN_3}
+  (    1 GNDSERVO )
+  (    2 VSERVO )
+  (    3 /SERVO2 )
+ )
+ ( /4F1BD0F6 SIL-3  K2 CONN_3 {Lib=CONN_3}
+  (    1 GNDSERVO )
+  (    2 VSERVO )
+  (    3 /SERVO1 )
+ )
+ ( /4F1B6705 OSHW_10mm  U14 OSHW_LOGO {Lib=OHSW_LOGO}
+ )
+ ( /4F1B52F8 5mm_clearance_hole  U15 5MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B52D4 5mm_clearance_hole  U13 5MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B52CC 5mm_clearance_hole  U12 5MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B5295 5mm_clearance_hole  U11 5MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B4AED SIL-1  P_VDD1 TST {Lib=TST}
+  (    1 VDD )
+ )
+ ( /4F1A7E09 SM1812  F1 1.1A_24V {Lib=FUSE}
+  (    1 N-000077 )
+  (    2 N-000104 )
+ )
+ ( /4F1A7348 SOD-123LF  D2 SCHOTTKY_2A_30V {Lib=DIODE}
+  (    1 VPP )
+  (    2 N-000077 )
+ )
+ ( /4F1A5EF0 SIL-2  P8 CONN_2 {Lib=CONN_2}
+  (    1 N-000074 )
+  (    2 GNDSERVO )
+ )
+ ( /4F1A5902 SIL-3  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000094 )
+  (    2 VSERVO )
+  (    3 N-000074 )
+ )
+ ( /4F1A5820 SOT223  U5 LM317AEMP {Lib=LM317AEMP}
+  (    1 N-000073 )
+  (    2 N-000094 )
+  (    3 N-000104 )
+  (    4 N-000094 )
+ )
+ ( /4F1A5814 SM0805  R14 240 {Lib=R}
+  (    1 N-000073 )
+  (    2 N-000094 )
+ )
+ ( /4F1A580E SM0805  R10 390 {Lib=R}
+  (    1 GNDSERVO )
+  (    2 N-000073 )
+ )
+ ( /4F1A5228 SM0805  R9 390 {Lib=R}
+  (    1 GNDPWR )
+  (    2 N-000086 )
+ )
+ ( /4F1A5196 SM0805  R13 240 {Lib=R}
+  (    1 N-000086 )
+  (    2 VDD )
+ )
+ ( /4F1A4DDA SOT223  U4 LM317AEMP {Lib=LM317AEMP}
+  (    1 N-000086 )
+  (    2 VDD )
+  (    3 N-000104 )
+  (    4 VDD )
+ )
+ ( /4F1A4714 SIL-6  P5 CONN_6 {Lib=CONN_6}
+  (    1 VDD )
+  (    2 /CON_RX )
+  (    3 /CON_TX )
+  (    4 /CON_RTS )
+  (    5 /CON_CTS )
+  (    6 DGND )
+ )
+ ( /4F19023B SM0805  D5 RX {Lib=LED}
+  (    1 /FTDI_3V3 )
+  (    2 N-000090 )
+ )
+ ( /4F1900A8 SM0805  D4 TX {Lib=LED}
+  (    1 /FTDI_3V3 )
+  (    2 N-000089 )
+ )
+ ( /4F1900A2 SM0805  R11 270 {Lib=R}
+  (    1 N-000088 )
+  (    2 N-000089 )
+ )
+ ( /4F18E33B Hirose_UX60-MB-5ST  U2 USB_MAPLE {Lib=USB_MINIB}
+  (    1 VUSB )
+  (    2 N-000082 )
+  (    3 N-000081 )
+  (    4 ? )
+  (    5 DGND )
+  (   SH DGND )
+ )
+ ( /4F18E00D SSOP28  U3 MY_FT232RL {Lib=MY_FT232RL}
+  (    1 /CON_RX )
+  (    2 ? )
+  (    3 /CON_CTS )
+  (    4 /FTDI_3V3 )
+  (    5 /CON_TX )
+  (    6 ? )
+  (    7 DGND )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 /CON_RTS )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 N-000042 )
+  (   16 N-000041 )
+  (   17 /FTDI_3V3 )
+  (   18 DGND )
+  (   19 /FTDI_VBUS )
+  (   20 /FTDI_VBUS )
+  (   21 DGND )
+  (   22 N-000046 )
+  (   23 N-000088 )
+  (   24 ? )
+  (   25 DGND )
+  (   26 DGND )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /4F18C985 pin_array_4x2  P3 MY_CONN_4X2 {Lib=MY_CONN_4X2}
+  (    1 /JTAG_TRST )
+  (    2 DGND )
+  (    3 /JTAG_TCK )
+  (    4 /JTAG_TDO )
+  (    5 /JTAG_TDI )
+  (    6 /JTAG_TMS )
+  (    7 VDD )
+  (    8 /JTAG_TRST )
+ )
+ ( /4F18BDF6 SM0805  C9 0.1uF {Lib=C}
+  (    1 N-000104 )
+  (    2 GNDPWR )
+ )
+ ( /4F18BDF0 SM0805  C5 10uF {Lib=C}
+  (    1 N-000104 )
+  (    2 GNDPWR )
+ )
+ ( /4F18BB4A SM0805  L1 FERRITE {Lib=INDUCTOR}
+  (    1 GNDPWR )
+  (    2 DGND )
+ )
+ ( /4F18AC7A SM0805  R1 1k_1% {Lib=R}
+  (    1 /USB_DISC )
+  (    2 N-000060 )
+ )
+ ( /4F18AC74 SM0805  R2 47k_1% {Lib=R}
+  (    1 VDD )
+  (    2 N-000060 )
+ )
+ ( /4F18AC64 SOT23EBC  Q1 NPN {Lib=NPN}
+  (    1 DGND )
+  (    2 N-000060 )
+  (    3 N-000105 )
+ )
+ ( /4F18AC4A SM0805  R5 10k_1% {Lib=R}
+  (    1 VUSB )
+  (    2 N-000105 )
+ )
+ ( /4F18AC44 SM0805  R6 36k_1% {Lib=R}
+  (    1 N-000105 )
+  (    2 DGND )
+ )
+ ( /4F18AB8B SM0805  R7 1k5_1% {Lib=R}
+  (    1 N-000103 )
+  (    2 /USB_DP )
+ )
+ ( /4F18A8C8 SM0805  C6 47pF_50V {Lib=C}
+  (    1 DGND )
+  (    2 /USB_DM )
+ )
+ ( /4F18A8BD SM0805  R3 22_1% {Lib=R}
+  (    1 N-000082 )
+  (    2 /USB_DM )
+ )
+ ( /4F189F75 SM0805  C2 15pF {Lib=C}
+  (    1 DGND )
+  (    2 /OSC_IN )
+ )
+ ( /4F189C11 SM0805  R23 10k {Lib=R}
+  (    1 VDD )
+  (    2 /RESET )
+ )
+ ( /4F189C05 SM0805  R25 1k {Lib=R}
+  (    1 N-000053 )
+  (    2 DGND )
+ )
+ ( /4F189B1E SM0805  R16 330 {Lib=R}
+  (    1 N-000107 )
+  (    2 N-000052 )
+ )
+ ( /4F1898E2 SM0805  R26 10k {Lib=R}
+  (    1 N-000098 )
+  (    2 DGND )
+ )
+ ( /4F189899 SM0805  R24 1k {Lib=R}
+  (    1 VDD )
+  (    2 N-000057 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component U1
+ LQFP-48
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component U5
+ SOT223
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U4
+ SOT223
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VDD" "VDD"
+ P10 1
+ P2 1
+ Q2 3
+ P6 23
+ P_VDD1 1
+ R2 1
+ R17 1
+ P1 1
+ R15 1
+ C14 1
+ C11 1
+ P3 7
+ C13 1
+ C17 1
+ C15 1
+ P7 25
+ P7 23
+ C16 1
+ P6 25
+ P5 1
+ U4 2
+ U1 32
+ R24 1
+ U1 13
+ U4 4
+ P9 1
+ P11 1
+ U1 48
+ U1 19
+ R23 1
+ Q3 D
+ U1 64
+ R13 2
+Net 2 "/SDIO_CK" "SDIO_CK"
+ U7 5
+ P9 11
+ U1 53
+Net 3 "/SDIO_CMD" "SDIO_CMD"
+ U7 3
+ U1 54
+ P9 10
+Net 4 "/MOT3_DIR" "MOT3_DIR"
+ P7 7
+ U1 10
+ P1 10
+Net 7 "/SPI_MOSI" "SPI_MOSI"
+ U1 36
+ P6 9
+ P10 12
+Net 8 "/SDIO_CARD_DETECT" "SDIO_CARD_DETECT"
+ R17 2
+ U7 A
+ P10 11
+ U1 37
+Net 9 "/SDIO_POWER" "SDIO_POWER"
+ P10 10
+ R15 2
+ U1 38
+ Q3 G
+Net 10 "/SDIO_D2" "SDIO_D2"
+ P9 13
+ U7 1
+ U1 51
+Net 11 "/SDIO_D3" "SDIO_D3"
+ U1 52
+ P9 12
+ U7 2
+Net 12 "/ADC_4" "ADC_4"
+ U1 23
+ P2 5
+ P7 18
+Net 15 "" ""
+ U1 29
+ P2 10
+Net 16 "/DIO_4" "DIO_4"
+ P2 9
+ U1 27
+ P11 5
+Net 17 "DGND" "DGND"
+ U2 SH
+ U3 7
+ Q1 1
+ C6 1
+ R6 2
+ R26 2
+ C2 1
+ U2 5
+ C18 2
+ GND1 1
+ L3 2
+ P5 6
+ U7 6
+ C19 2
+ U6 5
+ P7 2
+ P7 4
+ U3 26
+ L2 2
+ P7 6
+ U3 25
+ P6 14
+ P6 24
+ P6 16
+ P6 26
+ P7 8
+ P6 2
+ P6 4
+ U3 18
+ P6 20
+ P6 12
+ P6 22
+ P6 8
+ P7 14
+ P11 8
+ C17 2
+ P7 20
+ P7 12
+ P7 22
+ P6 6
+ P7 24
+ P7 16
+ P7 26
+ P2 16
+ P1 6
+ P1 16
+ P3 2
+ U1 63
+ C3 1
+ L1 2
+ P10 16
+ R25 2
+ U1 47
+ U1 18
+ U1 28
+ U3 21
+ U1 31
+ C11 2
+ C1 2
+ D6 2
+ P9 16
+ U6 SH
+ C7 1
+ C4 2
+ U7 S
+ U7 B
+ C16 2
+ C15 2
+ C14 2
+Net 18 "/ADC_1" "ADC_1"
+ P6 10
+ U1 20
+ P2 2
+Net 22 "/SHIFT_REG_ENABLE" "SHIFT_REG_ENABLE"
+ P7 15
+ P2 11
+ U1 30
+ P6 15
+Net 23 "/ADC_3" "ADC_3"
+ P7 10
+ U1 22
+ P2 4
+Net 24 "/SDIO_D1" "SDIO_D1"
+ U7 8
+ U1 40
+ P10 8
+Net 25 "/DIO_1" "DIO_1"
+ P11 2
+ P1 4
+ U1 3
+Net 26 "" ""
+ U1 1
+ P1 2
+Net 28 "/FTDI_VBUS" "FTDI_VBUS"
+ U3 20
+ U6 1
+ U3 19
+ C1 1
+Net 29 "/SPI_CHAIN" "SPI_CHAIN"
+ P6 17
+ P7 9
+Net 30 "/DIO_2" "DIO_2"
+ U1 4
+ P1 5
+ P11 3
+Net 31 "/DIO_3" "DIO_3"
+ U1 26
+ P11 4
+ P2 8
+Net 32 "/DIO_5" "DIO_5"
+ P10 7
+ U1 41
+ P11 6
+Net 33 "/DIO_6" "DIO_6"
+ P2 6
+ P11 7
+ U1 24
+Net 34 "GNDPWR" "GNDPWR"
+ C9 2
+ L1 1
+ R9 1
+ C5 2
+Net 35 "/JTAG_TMS" "JTAG_TMS"
+ U1 46
+ P3 6
+ P10 2
+Net 36 "/JTAG_TCK" "JTAG_TCK"
+ P9 15
+ P3 3
+ U1 49
+Net 37 "/JTAG_TDI" "JTAG_TDI"
+ P3 5
+ P9 14
+ U1 50
+Net 38 "/JTAG_TDO" "JTAG_TDO"
+ P9 9
+ P3 4
+ U1 55
+Net 39 "/JTAG_TRST" "JTAG_TRST"
+ P3 8
+ U1 56
+ P3 1
+ P9 8
+Net 41 "" ""
+ U3 16
+ U6 2
+Net 42 "" ""
+ U6 3
+ U3 15
+Net 46 "" ""
+ U3 22
+ R12 1
+Net 50 "/USB_DISC" "USB_DISC"
+ U1 25
+ R1 1
+ P2 7
+Net 52 "" ""
+ R16 2
+ D6 1
+Net 53 "" ""
+ R25 1
+ SW1 2
+ SW1 4
+Net 54 "/RESET" "RESET"
+ P1 7
+ U1 7
+ SW1 1
+ SW1 3
+ R23 2
+Net 55 "/OSC_IN" "OSC_IN"
+ U1 5
+ C2 2
+ X1 3
+Net 56 "/OSC_OUT" "OSC_OUT"
+ C3 2
+ X1 1
+ U1 6
+Net 57 "" ""
+ SW2 3
+ R24 2
+ SW2 1
+Net 59 "VUSB" "VUSB"
+ R5 1
+ U2 1
+ D3 1
+Net 60 "" ""
+ R1 2
+ R2 2
+ Q1 2
+Net 62 "/SPI_MISO" "SPI_MISO"
+ U1 35
+ P10 13
+Net 63 "/SERVO3" "SERVO3"
+ K4 3
+ U1 61
+ P9 3
+Net 64 "/SERVO2" "SERVO2"
+ U1 59
+ P9 5
+ K3 3
+Net 65 "/SERVO1" "SERVO1"
+ K2 3
+ U1 58
+ P9 6
+Net 66 "/SPI_SCK" "SPI_SCK"
+ P7 11
+ P6 11
+ U1 34
+ P10 14
+Net 67 "/SPI_CS" "SPI_CS"
+ U1 33
+ P6 13
+ P10 15
+ P7 13
+Net 68 "/SERVO4" "SERVO4"
+ K5 3
+ U1 62
+ P9 2
+Net 70 "/MOT4_STEP" "MOT4_STEP"
+ P7 19
+ P1 15
+ U1 17
+Net 71 "/MOT4_DIR" "MOT4_DIR"
+ P7 21
+ U1 11
+ P1 11
+Net 72 "VSERVO" "VSERVO"
+ K2 2
+ K3 2
+ K4 2
+ K1 2
+ K5 2
+ C12 1
+Net 73 "" ""
+ U5 1
+ R10 2
+ R14 1
+Net 74 "" ""
+ P8 1
+ K1 3
+Net 75 "/MOT2_DIR" "MOT2_DIR"
+ P1 9
+ P6 21
+ U1 9
+Net 76 "/MOT2_STEP" "MOT2_STEP"
+ P6 19
+ P1 13
+ U1 15
+Net 77 "" ""
+ F1 1
+ D3 2
+ D2 2
+Net 78 "/FTDI_3V3" "FTDI_3V3"
+ D5 1
+ U3 4
+ D4 1
+ U3 17
+ C4 1
+Net 81 "" ""
+ U2 3
+ R4 1
+Net 82 "" ""
+ R3 1
+ U2 2
+Net 83 "/CON_TX" "CON_TX"
+ U3 5
+ U1 42
+ P5 3
+ P10 6
+Net 84 "/CON_RX" "CON_RX"
+ U3 1
+ U1 43
+ P5 2
+ P10 5
+Net 85 "/CON_RTS" "CON_RTS"
+ P5 4
+ U3 11
+Net 86 "" ""
+ R9 2
+ R13 1
+ U4 1
+Net 87 "/MOT3_STEP" "MOT3_STEP"
+ P7 5
+ P1 14
+ U1 16
+Net 88 "" ""
+ U3 23
+ R11 1
+Net 89 "" ""
+ R11 2
+ D4 2
+Net 90 "" ""
+ R12 2
+ D5 2
+Net 91 "/MOT1_STEP" "MOT1_STEP"
+ P1 12
+ U1 14
+ P6 5
+Net 92 "/MOT1_DIR" "MOT1_DIR"
+ U1 8
+ P1 8
+ P6 7
+Net 93 "/CON_CTS" "CON_CTS"
+ P5 5
+ U3 3
+Net 94 "" ""
+ R14 2
+ K1 1
+ U5 2
+ U5 4
+Net 95 "GNDSERVO" "GNDSERVO"
+ L3 1
+ C12 2
+ C8 2
+ R10 1
+ P8 2
+ K3 1
+ K4 1
+ K5 1
+ K2 1
+Net 96 "/USB_DP" "USB_DP"
+ C7 2
+ R7 2
+ R4 2
+ P10 3
+ U1 45
+Net 97 "/ADC_2" "ADC_2"
+ P2 3
+ P6 18
+ U1 21
+Net 98 "" ""
+ SW2 2
+ U1 60
+ R26 1
+ SW2 4
+ P9 4
+ P9 7
+ U1 57
+Net 99 "AGND" "AGND"
+ L2 1
+ C13 2
+ U1 12
+Net 100 "VPP" "VPP"
+ D2 1
+ P6 3
+ P6 1
+Net 101 "" ""
+ U7 4
+ C18 1
+ Q3 S
+ C19 1
+Net 102 "GND" "GND"
+ X1 4
+ X1 2
+Net 103 "" ""
+ R7 1
+ Q2 1
+Net 104 "" ""
+ C5 1
+ C9 1
+ C8 1
+ U4 3
+ F1 2
+ U5 3
+Net 105 "" ""
+ Q1 3
+ Q2 2
+ R6 1
+ R5 2
+Net 106 "/USB_DM" "USB_DM"
+ U1 44
+ P10 4
+ C6 2
+ R3 2
+Net 107 "" ""
+ U1 2
+ R16 1
+ P1 3
+Net 108 "/SDIO_D0" "SDIO_D0"
+ P10 9
+ U1 39
+ U7 7
+}
+#End
