@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Tue 27 Mar 2012 21:04:39 NZDT
+Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Tue 27 Mar 2012 22:03:02 NZDT
 
 BeginCmp
 TimeStamp = /4F1D1B0A;
 Reference = C1;
 ValeurCmp = 100uF_30V;
-IdModule  = ;
+IdModule  = SMD_electrolytic_8mm_cap;
 EndCmp
 
 BeginCmp
@@ -130,7 +130,7 @@ BeginCmp
 TimeStamp = /4F1A7183;
 Reference = D1;
 ValeurCmp = SCHOTTKY_3A_40V;
-IdModule  = ;
+IdModule  = Diode-SMA_Handsoldering_RevA_27July2010;
 EndCmp
 
 BeginCmp
@@ -291,14 +291,14 @@ BeginCmp
 TimeStamp = /4F48A20D;
 Reference = R10;
 ValeurCmp = 0.22;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F48A207;
 Reference = R11;
 ValeurCmp = 0.22;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -389,14 +389,14 @@ BeginCmp
 TimeStamp = /4F716D0C;
 Reference = R24;
 ValeurCmp = 0.22;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F716D12;
 Reference = R25;
 ValeurCmp = 0.22;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -410,7 +410,7 @@ BeginCmp
 TimeStamp = /4F48A23F;
 Reference = U1;
 ValeurCmp = A4982;
-IdModule  = ;
+IdModule  = A4982_TSSOP24_with_pad;
 EndCmp
 
 BeginCmp
@@ -431,7 +431,7 @@ BeginCmp
 TimeStamp = /4F716CDA;
 Reference = U4;
 ValeurCmp = A4982;
-IdModule  = ;
+IdModule  = A4982_TSSOP24_with_pad;
 EndCmp
 
 BeginCmp
