@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Wed 14 Mar 2012 21:12:18 NZDT
+Cmp-Mod V01 Created by CvPcb (2012-01-25 BZR 3379)-stable date = Thu 29 Mar 2012 15:30:00 NZDT
 
 BeginCmp
 TimeStamp = /4F1D2E7E;
 Reference = C1;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /4F1D2E0E;
 Reference = C4;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -53,21 +53,14 @@ BeginCmp
 TimeStamp = /4F1D2228;
 Reference = C8;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F18BDF6;
 Reference = C9;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F1D2349;
-Reference = C10;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -88,35 +81,49 @@ BeginCmp
 TimeStamp = /4F1D27C1;
 Reference = C13;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1D27F5;
 Reference = C14;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1D27FF;
 Reference = C15;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1D2809;
 Reference = C16;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F236407;
 Reference = C17;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F615C45;
+Reference = C18;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F615A5E;
+Reference = C19;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -162,6 +169,13 @@ IdModule  = SM1812;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F557BD8;
+Reference = GND1;
+ValeurCmp = TST;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F1A5902;
 Reference = K1;
 ValeurCmp = CONN_3;
@@ -200,14 +214,21 @@ BeginCmp
 TimeStamp = /4F18BB4A;
 Reference = L1;
 ValeurCmp = FERRITE;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F557991;
 Reference = L2;
 ValeurCmp = FERRITE;
-IdModule  = SM0603;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F68075B;
+Reference = L3;
+ValeurCmp = FERRITE;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -256,7 +277,7 @@ BeginCmp
 TimeStamp = /4F1A5EF0;
 Reference = P8;
 ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+IdModule  = Phoenix_MSTBA_2;
 EndCmp
 
 BeginCmp
@@ -278,13 +299,6 @@ TimeStamp = /4F23C249;
 Reference = P11;
 ValeurCmp = MY_CONN_8;
 IdModule  = SIL-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F557BD8;
-Reference = P_GND1;
-ValeurCmp = TST;
-IdModule  = SIL-1;
 EndCmp
 
 BeginCmp
@@ -365,13 +379,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1AE8DD;
-Reference = R8;
-ValeurCmp = 2k2;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F1A5228;
 Reference = R9;
 ValeurCmp = 390;
@@ -428,6 +435,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F607304;
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F189C11;
 Reference = R23;
 ValeurCmp = 10k;
@@ -453,13 +467,6 @@ TimeStamp = /4F1898E2;
 Reference = R26;
 ValeurCmp = 10k;
 IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F1AE8E3;
-Reference = RV1;
-ValeurCmp = 10k;
-IdModule  = PV36W_pot;
 EndCmp
 
 BeginCmp
@@ -522,7 +529,7 @@ BeginCmp
 TimeStamp = /4F60543E;
 Reference = U7;
 ValeurCmp = SDCARD_SD_MODE;
-IdModule  = ;
+IdModule  = HIROSE_MicroSD_DM3AT;
 EndCmp
 
 BeginCmp

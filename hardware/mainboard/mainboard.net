@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 27 Mar 2012 10:49:56 NZDT
+# EESchema Netlist Version 1.1 created  Thu 29 Mar 2012 15:30:15 NZDT
 (
  ( /4F68075B SM0805  L3 FERRITE {Lib=INDUCTOR}
   (    1 GNDSERVO )
@@ -385,7 +385,7 @@
   (    1 VPP )
   (    2 N-000077 )
  )
- ( /4F1A5EF0 SIL-2  P8 CONN_2 {Lib=CONN_2}
+ ( /4F1A5EF0 Phoenix_MSTBA_2  P8 CONN_2 {Lib=CONN_2}
   (    1 N-000074 )
   (    2 GNDSERVO )
  )
