@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Tue 27 Mar 2012 22:03:02 NZDT
+Cmp-Mod V01 Created by CvPcb (2012-01-25 BZR 3379)-stable date = Thu 29 Mar 2012 15:46:20 NZDT
 
 BeginCmp
 TimeStamp = /4F1D1B0A;
@@ -178,8 +178,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1A6D5D;
 Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = POWER_IN;
+IdModule  = Phoenix_MSTBA_2;
 EndCmp
 
 BeginCmp
@@ -199,15 +199,15 @@ EndCmp
 BeginCmp
 TimeStamp = /4F716ACE;
 Reference = P4;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = POWER_OUT;
+IdModule  = Phoenix_IC_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F48A1C1;
 Reference = P5;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = Phoenix_MSTBA_4;
 EndCmp
 
 BeginCmp
@@ -221,7 +221,7 @@ BeginCmp
 TimeStamp = /4F716D51;
 Reference = P7;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = Phoenix_MSTBA_4;
 EndCmp
 
 BeginCmp
@@ -290,35 +290,35 @@ EndCmp
 BeginCmp
 TimeStamp = /4F48A20D;
 Reference = R10;
-ValeurCmp = 0.22;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F48A207;
-Reference = R11;
-ValeurCmp = 0.22;
+ValeurCmp = 0.05_1/4W;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F716CF8;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F716D27;
 Reference = R12;
 ValeurCmp = 10k;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F716D27;
+TimeStamp = /4F716D00;
 Reference = R13;
 ValeurCmp = 10k;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F716D00;
+TimeStamp = /4F7176EA;
 Reference = R14;
-ValeurCmp = 10k;
+ValeurCmp = 330;
 IdModule  = SM0805;
 EndCmp
 
@@ -330,16 +330,16 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F7176EA;
+TimeStamp = /4F716D2D;
 Reference = R16;
-ValeurCmp = 330;
+ValeurCmp = 0;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F716D2D;
+TimeStamp = /4F716D33;
 Reference = R17;
-ValeurCmp = 0;
+ValeurCmp = n/p;
 IdModule  = SM0805;
 EndCmp
 
@@ -358,9 +358,9 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F716D33;
+TimeStamp = /4F7175A7;
 Reference = R20;
-ValeurCmp = n/p;
+ValeurCmp = 10k;
 IdModule  = SM0805;
 EndCmp
 
@@ -379,23 +379,16 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F7175A7;
+TimeStamp = /4F7181AE;
 Reference = R23;
-ValeurCmp = 10k;
+ValeurCmp = 0.05_1/4W;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F716D0C;
+TimeStamp = /4F7181E7;
 Reference = R24;
-ValeurCmp = 0.22;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F716D12;
-Reference = R25;
-ValeurCmp = 0.22;
+ValeurCmp = 0.05_1/4W;
 IdModule  = SM1206;
 EndCmp
 

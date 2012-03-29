@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 27 Mar 2012 22:03:31 NZDT
+# EESchema Netlist Version 1.1 created  Thu 29 Mar 2012 15:46:39 NZDT
 (
  ( /4F7181E7 SM1206  R24 0.05_1/4W {Lib=R}
   (    1 AGND )
@@ -40,7 +40,7 @@
   (    1 /MOT1_VPP )
   (    2 GNDPWR )
  )
- ( /4F716D51 $noname  P7 CONN_4 {Lib=CONN_4}
+ ( /4F716D51 Phoenix_MSTBA_4  P7 CONN_4 {Lib=CONN_4}
   (    1 /OUT1A )
   (    2 /OUT1B )
   (    3 /OUT2A )
@@ -109,7 +109,7 @@
   (   24 GNDPWR )
   (    P GNDPWR )
  )
- ( /4F716ACE SIL-2  P4 CONN_2 {Lib=CONN_2}
+ ( /4F716ACE Phoenix_IC_2  P4 POWER_OUT {Lib=CONN_2}
   (    1 VPP )
   (    2 GNDPWR )
  )
@@ -208,7 +208,7 @@
   (    1 VCC )
   (    2 DGND )
  )
- ( /4F48A1C1 $noname  P5 CONN_4 {Lib=CONN_4}
+ ( /4F48A1C1 Phoenix_MSTBA_4  P5 CONN_4 {Lib=CONN_4}
   (    1 /OUT1A )
   (    2 /OUT1B )
   (    3 /OUT2A )
@@ -320,7 +320,7 @@
   (    7 VPP )
   (    8 /MOT1_VPP )
  )
- ( /4F1D1B0A $noname  C1 100uF_30V {Lib=CP1}
+ ( /4F1D1B0A SMD_electrolytic_8mm_cap  C1 100uF_30V {Lib=CP1}
   (    1 VPP )
   (    2 GNDPWR )
  )
@@ -349,7 +349,7 @@
   (    1 N-000031 )
   (    2 VPP )
  )
- ( /4F1A6D5D SIL-2  P1 CONN_2 {Lib=CONN_2}
+ ( /4F1A6D5D Phoenix_MSTBA_2  P1 POWER_IN {Lib=CONN_2}
   (    1 N-000031 )
   (    2 GNDPWR )
  )

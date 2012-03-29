@@ -1,5 +1,5 @@
-update=Tue 27 Mar 2012 22:04:35 NZDT
-last_client=pcbnew
+update=Thu 29 Mar 2012 15:42:09 NZDT
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -54,11 +54,6 @@ LibName37=my_ftdi
 LibName38=misc
 LibName39=/home/amarburg/workspace/kicad/lib/my_conn
 LibName40=/home/amarburg/workspace/kicad/lib/misc
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -77,7 +72,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=stepperboard.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -95,3 +89,9 @@ LibName14=/home/aaron/workspace/quad_stepper_driver/hardware/kicad_libs/modules/
 LibName15=/home/aaron/workspace/quad_stepper_driver/hardware/kicad_libs/modules/my_conn
 LibName16=/home/aaron/workspace/quad_stepper_driver/hardware/kicad_libs/modules/ohw-logo
 LibName17=/home/aaron/workspace/quad_stepper_driver/hardware/kicad_libs/modules/smd_caps
+LibDir=../kicad_libs/modules
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
