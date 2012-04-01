@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-25 BZR 3379)-stable date = Thu 29 Mar 2012 15:30:00 NZDT
+Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Sun 01 Apr 2012 20:57:20 NZST
 
 BeginCmp
 TimeStamp = /4F1D2E7E;
@@ -536,21 +536,21 @@ BeginCmp
 TimeStamp = /4F1B5295;
 Reference = U11;
 ValeurCmp = 5MM_HOLE;
-IdModule  = 5mm_clearance_hole;
+IdModule  = 4mm_clearance_hole;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1B52CC;
 Reference = U12;
 ValeurCmp = 5MM_HOLE;
-IdModule  = 5mm_clearance_hole;
+IdModule  = 4mm_clearance_hole;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1B52D4;
 Reference = U13;
 ValeurCmp = 5MM_HOLE;
-IdModule  = 5mm_clearance_hole;
+IdModule  = 4mm_clearance_hole;
 EndCmp
 
 BeginCmp
@@ -564,7 +564,7 @@ BeginCmp
 TimeStamp = /4F1B52F8;
 Reference = U15;
 ValeurCmp = 5MM_HOLE;
-IdModule  = 5mm_clearance_hole;
+IdModule  = 4mm_clearance_hole;
 EndCmp
 
 BeginCmp

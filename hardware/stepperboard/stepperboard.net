@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 29 Mar 2012 15:46:39 NZDT
+# EESchema Netlist Version 1.1 created  Sun 01 Apr 2012 21:34:38 NZST
 (
  ( /4F7181E7 SM1206  R24 0.05_1/4W {Lib=R}
   (    1 AGND )
@@ -41,10 +41,10 @@
   (    2 GNDPWR )
  )
  ( /4F716D51 Phoenix_MSTBA_4  P7 CONN_4 {Lib=CONN_4}
-  (    1 /OUT1A )
-  (    2 /OUT1B )
-  (    3 /OUT2A )
-  (    4 /OUT2B )
+  (    1 /2_OUT1A )
+  (    2 /2_OUT1B )
+  (    3 /2_OUT2A )
+  (    4 /2_OUT2B )
  )
  ( /4F716D3F SM0805  C13 0.1_uF {Lib=C}
   (    1 VCC )
@@ -97,14 +97,14 @@
   (   12 /REFA )
   (   13 GNDPWR )
   (   14 /DIR )
-  (   15 /OUT1B )
+  (   15 /2_OUT1B )
   (   16 /MOT1_VPP )
   (   17 N-000051 )
-  (   18 /OUT1A )
-  (   19 /OUT2A )
+  (   18 /2_OUT1A )
+  (   19 /2_OUT2A )
   (   20 N-000050 )
   (   21 /MOT1_VPP )
-  (   22 /OUT2B )
+  (   22 /2_OUT2B )
   (   23 /ENABLE )
   (   24 GNDPWR )
   (    P GNDPWR )
@@ -334,13 +334,13 @@
  )
  ( /4F1B6705 OSHW_10mm  U14 OHSW_LOGO {Lib=OHSW_LOGO}
  )
- ( /4F1B52F8 5mm_clearance_hole  U15 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B52F8 4mm_clearance_hole  U15 4MM_HOLE {Lib=5MM_HOLE}
  )
- ( /4F1B52D4 5mm_clearance_hole  U13 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B52D4 4mm_clearance_hole  U13 4MM_HOLE {Lib=5MM_HOLE}
  )
- ( /4F1B52CC 5mm_clearance_hole  U12 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B52CC 4mm_clearance_hole  U12 4MM_HOLE {Lib=5MM_HOLE}
  )
- ( /4F1B5295 5mm_clearance_hole  U11 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B5295 4mm_clearance_hole  U11 4MM_HOLE {Lib=5MM_HOLE}
  )
  ( /4F1B4A43 SIL-1  P2 TST {Lib=TST}
   (    1 GNDPWR )
@@ -672,63 +672,63 @@ Net 1 "" ""
  U1 2
  C9 2
 Net 3 "/MOT1_VPP" "MOT1_VPP"
- C17 1
  C7 1
- C18 1
- U4 21
- U1 16
+ C17 1
  U4 16
- U2 8
  R6 1
- U1 21
- C15 1
- C11 1
  C10 1
+ U4 21
+ C11 1
+ U2 8
+ U1 16
+ U1 21
+ C18 1
+ C15 1
 Net 4 "/REFA" "REFA"
- U4 12
  U1 12
+ U4 12
 Net 5 "DGND" "DGND"
- D2 2
- R20 2
  P6 4
  P6 2
- D5 2
- L2 2
  C13 2
- D4 2
- D3 2
+ U3 8
  C14 2
  R18 2
  C4 2
+ U6 8
+ D3 2
+ C8 2
+ C6 2
+ C3 2
+ D5 2
+ L2 2
+ D4 2
  P6 26
  P6 16
- U6 8
+ P6 6
+ D2 2
+ P6 8
  P6 24
  P6 14
  P6 22
  P6 12
+ R20 2
  P6 20
- P6 8
- P6 6
- C8 2
- C6 2
- C3 2
- U3 8
 Net 6 "/MOT1_ISENSE" "MOT1_ISENSE"
  U2 1
  P6 10
  R7 2
 Net 7 "/MOT1_RESET" "MOT1_RESET"
+ R2 2
+ U4 7
+ R12 2
  U1 7
  U6 4
  U3 4
- R2 2
- R12 2
- U4 7
 Net 8 "" ""
+ U1 8
  R5 1
  R4 2
- U1 8
 Net 9 "" ""
  C9 1
  U1 1
@@ -737,121 +737,119 @@ Net 10 "" ""
  U1 17
 Net 11 "/OUT2A" "OUT2A"
  P5 3
- P7 3
- U4 19
  U1 19
 Net 12 "" ""
  U1 3
  C7 2
 Net 13 "" ""
- U1 4
  C2 1
+ U1 4
 Net 14 "" ""
- U4 8
  R16 2
  R17 1
+ U4 8
 Net 15 "" ""
  U4 3
  C15 2
 Net 16 "" ""
- C12 1
  U4 4
+ C12 1
 Net 17 "" ""
  C16 1
  U4 1
 Net 18 "" ""
- C16 2
  U4 2
+ C16 2
 Net 19 "/MOT2_ISENSE" "MOT2_ISENSE"
- R9 2
- U2 2
  P6 18
+ U2 2
+ R9 2
 Net 20 "/SHIFT_REG_ENABLE" "SHIFT_REG_ENABLE"
- U3 13
+ R15 2
  P6 15
  U6 13
- R15 2
+ U3 13
 Net 21 "VCC" "VCC"
- C14 1
- C4 1
  C13 1
+ C4 1
+ RV1 3
  R16 1
  R12 1
- RV1 3
  R15 1
+ C14 1
  U3 10
- U1 10
- C8 1
- R13 1
  U3 16
+ R3 1
  U4 10
- U6 16
- R4 1
- U6 10
- R2 1
+ R13 1
  R11 1
- P6 25
+ U6 16
+ U6 10
+ C3 1
+ U1 10
  P6 23
  C6 1
- R3 1
+ P6 25
+ C8 1
+ R2 1
+ R4 1
  R1 1
- C3 1
 Net 22 "/SPI_CS" "SPI_CS"
  U3 12
  U6 12
  P6 13
 Net 23 "VPP" "VPP"
- C5 1
- R6 2
- U2 6
- U2 7
- C1 1
- P4 1
- R8 1
  D1 2
+ C5 1
+ C1 1
+ U2 7
+ U2 6
+ R6 2
+ P4 1
  P6 3
  P6 1
+ R8 1
 Net 24 "/MOT1_STEP" "MOT1_STEP"
- U1 11
- P6 5
  P6 19
+ P6 5
+ U1 11
  U4 11
 Net 25 "/DIR" "DIR"
+ P6 7
  U1 14
  P6 21
  U4 14
- P6 7
 Net 26 "/SPI_MOSI" "SPI_MOSI"
  P6 9
  U6 14
 Net 27 "/SPI_SCK" "SPI_SCK"
+ U6 11
  P6 11
  U3 11
- U6 11
 Net 28 "/MOT2_VPP" "MOT2_VPP"
- U2 5
  R8 2
+ U2 5
 Net 30 "GNDPWR" "GNDPWR"
- P2 1
- R17 2
- C2 2
- P4 2
- C1 2
- U1 13
- C18 2
- C5 2
- U4 13
- L1 1
- C12 2
- C10 2
+ R5 2
  C11 2
  U4 24
- R5 2
  U1 24
- C17 2
- P1 2
+ C18 2
+ P4 2
+ C10 2
  U4 P
+ C1 2
+ R17 2
+ L1 1
+ U4 13
+ C2 2
+ P2 1
+ P1 2
+ C5 2
+ C17 2
+ U1 13
  U1 P
+ C12 2
 Net 31 "" ""
  P1 1
  D1 1
@@ -859,55 +857,49 @@ Net 32 "" ""
  R22 2
  D5 1
 Net 33 "" ""
- D4 1
  R21 2
+ D4 1
 Net 34 "" ""
  U3 14
  U6 9
 Net 35 "/MOT1_MS2" "MOT1_MS2"
  U1 6
  U4 6
- U3 1
  U6 1
+ U3 1
 Net 36 "/MOT1_MS1" "MOT1_MS1"
+ U3 15
+ U6 15
  U1 5
  U4 5
- U6 15
- U3 15
 Net 37 "/ENABLE" "ENABLE"
- R3 2
- U4 23
- R13 2
- U6 5
- U1 23
  U3 5
+ R13 2
+ U4 23
+ U6 5
+ R3 2
+ U1 23
 Net 38 "" ""
  U3 6
  R21 1
 Net 39 "" ""
- U3 7
  R22 1
+ U3 7
 Net 40 "/SPI_CHAIN" "SPI_CHAIN"
- U3 9
  P6 17
+ U3 9
 Net 41 "" ""
  D3 1
  R19 2
 Net 42 "/OUT2B" "OUT2B"
- P7 4
- P5 4
  U1 22
- U4 22
+ P5 4
 Net 43 "/OUT1A" "OUT1A"
- P5 1
  U1 18
- U4 18
- P7 1
+ P5 1
 Net 44 "/OUT1B" "OUT1B"
  U1 15
  P5 2
- U4 15
- P7 2
 Net 45 "" ""
  U6 6
  R14 1
@@ -915,36 +907,48 @@ Net 46 "" ""
  U6 7
  R19 1
 Net 47 "/MOT1_MS3" "MOT1_MS3"
- U6 2
  R18 1
+ U6 2
 Net 48 "" ""
- R14 2
  D2 1
+ R14 2
 Net 49 "/MOT1_SLEEP" "MOT1_SLEEP"
  R1 2
  U6 3
  R11 2
  U1 9
- U4 9
  U3 3
+ U4 9
 Net 50 "" ""
- R24 2
  U4 20
+ R24 2
 Net 51 "" ""
  R23 2
  U4 17
 Net 52 "AGND" "AGND"
- R9 1
- L1 2
- L2 1
  R24 1
- RV1 1
- U2 4
  R10 1
- R7 1
+ L2 1
+ U2 4
  R23 1
-Net 55 "/MOT2_MS3" "MOT2_MS3"
- R20 1
+ R9 1
+ R7 1
+ L1 2
+ RV1 1
+Net 53 "/2_OUT1B" "2_OUT1B"
+ P7 2
+ U4 15
+Net 54 "/2_OUT2B" "2_OUT2B"
+ U4 22
+ P7 4
+Net 57 "/2_OUT1A" "2_OUT1A"
+ P7 1
+ U4 18
+Net 58 "/2_OUT2A" "2_OUT2A"
+ U4 19
+ P7 3
+Net 59 "/MOT2_MS3" "MOT2_MS3"
  U3 2
+ R20 1
 }
 #End

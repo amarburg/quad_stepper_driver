@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 29 Mar 2012 15:29:14 NZDT
+EESchema Schematic File Version 2  date Sun 01 Apr 2012 21:22:27 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -37,13 +37,14 @@ LIBS:my_power
 LIBS:my_conn
 LIBS:my_ftdi
 LIBS:misc
+LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "26 mar 2012"
+Date "1 apr 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1851,8 +1852,8 @@ L 5MM_HOLE U15
 U 1 1 4F1B52F8
 P 15300 10400
 F 0 "U15" H 15300 10400 60  0000 C CNN
-F 1 "5MM_HOLE" H 15300 10400 60  0000 C CNN
-F 2 "5mm_clearance_hole" H 15300 10500 60  0000 C CNN
+F 1 "4MM_HOLE" H 15300 10400 60  0000 C CNN
+F 2 "4mm_clearance_hole" H 15300 10500 60  0000 C CNN
 	1    15300 10400
 	1    0    0    -1  
 $EndComp
@@ -1861,8 +1862,8 @@ L 5MM_HOLE U13
 U 1 1 4F1B52D4
 P 14850 10400
 F 0 "U13" H 14850 10400 60  0000 C CNN
-F 1 "5MM_HOLE" H 14850 10400 60  0000 C CNN
-F 2 "5mm_clearance_hole" H 14850 10500 60  0000 C CNN
+F 1 "4MM_HOLE" H 14850 10400 60  0000 C CNN
+F 2 "4mm_clearance_hole" H 14850 10500 60  0000 C CNN
 	1    14850 10400
 	1    0    0    -1  
 $EndComp
@@ -1871,8 +1872,8 @@ L 5MM_HOLE U12
 U 1 1 4F1B52CC
 P 14100 10400
 F 0 "U12" H 14100 10400 60  0000 C CNN
-F 1 "5MM_HOLE" H 14100 10400 60  0000 C CNN
-F 2 "5mm_clearance_hole" H 14100 10500 60  0000 C CNN
+F 1 "4MM_HOLE" H 14100 10400 60  0000 C CNN
+F 2 "4mm_clearance_hole" H 14100 10500 60  0000 C CNN
 	1    14100 10400
 	1    0    0    -1  
 $EndComp
@@ -1881,8 +1882,8 @@ L 5MM_HOLE U11
 U 1 1 4F1B5295
 P 15700 10400
 F 0 "U11" H 15700 10400 60  0000 C CNN
-F 1 "5MM_HOLE" H 15700 10400 60  0000 C CNN
-F 2 "5mm_clearance_hole" H 15700 10500 60  0000 C CNN
+F 1 "4MM_HOLE" H 15700 10400 60  0000 C CNN
+F 2 "4mm_clearance_hole" H 15700 10500 60  0000 C CNN
 	1    15700 10400
 	1    0    0    -1  
 $EndComp
