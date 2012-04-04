@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 01 Apr 2012 21:53:21 NZST
+EESchema Schematic File Version 2  date Wed 04 Apr 2012 21:50:53 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "1 apr 2012"
+Date "4 apr 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -52,32 +52,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L R R24
-U 1 1 4F7181E7
-P 13550 6200
-F 0 "R24" V 13630 6200 50  0000 C CNN
-F 1 "0.05 1/4W" V 13550 6200 50  0000 C CNN
-F 2 "SM1206" V 13650 6200 50  0000 C CNN
-F 4 "Panasonic" H 13550 6200 60  0001 C CNN "Manufacturer"
-F 5 "Digikey" H 13550 6200 60  0001 C CNN "Vendor"
-F 6 "P50LPCT-ND" H 13550 6200 60  0001 C CNN "Vendor P/N"
-	1    13550 6200
-	0    1    1    0   
-$EndComp
-$Comp
-L R R23
-U 1 1 4F7181AE
-P 13200 6100
-F 0 "R23" V 13280 6100 50  0000 C CNN
-F 1 "0.05 1/4W" V 13200 6100 50  0000 C CNN
-F 2 "SM0805" V 13300 6100 50  0000 C CNN
-F 4 "Panasonic" H 13200 6100 60  0001 C CNN "Manufacturer"
-F 5 "Digikey" H 13200 6100 60  0001 C CNN "Vendor"
-F 6 "P50LPCT-ND" H 13200 6100 60  0001 C CNN "Vendor P/N"
-	1    13200 6100
-	0    1    1    0   
-$EndComp
+Wire Wire Line
+	6900 6200 7250 6200
 Wire Wire Line
 	12300 6900 11000 6900
 Wire Wire Line
@@ -149,8 +125,6 @@ Wire Wire Line
 	4450 7100 3900 7100
 Wire Wire Line
 	6350 5150 6350 5200
-Wire Wire Line
-	6750 6200 6350 6200
 Wire Wire Line
 	6900 6100 7250 6100
 Wire Wire Line
@@ -573,6 +547,47 @@ Wire Wire Line
 	1250 4000 1250 4050
 Wire Wire Line
 	5750 6900 4450 6900
+Wire Wire Line
+	6350 6200 6400 6200
+$Comp
+L R R25
+U 1 1 4F7C193A
+P 6650 6200
+F 0 "R25" V 6730 6200 50  0000 C CNN
+F 1 "0.05 1/4W" V 6650 6200 50  0000 C CNN
+F 2 "SM1206" V 6750 6200 50  0000 C CNN
+F 4 "Panasonic" H 6650 6200 60  0001 C CNN "Manufacturer"
+F 5 "Digikey" H 6650 6200 60  0001 C CNN "Vendor"
+F 6 "P50LPCT-ND" H 6650 6200 60  0001 C CNN "Vendor P/N"
+	1    6650 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R24
+U 1 1 4F7181E7
+P 13550 6200
+F 0 "R24" V 13630 6200 50  0000 C CNN
+F 1 "0.05 1/4W" V 13550 6200 50  0000 C CNN
+F 2 "SM1206" V 13650 6200 50  0000 C CNN
+F 4 "Panasonic" H 13550 6200 60  0001 C CNN "Manufacturer"
+F 5 "Digikey" H 13550 6200 60  0001 C CNN "Vendor"
+F 6 "P50LPCT-ND" H 13550 6200 60  0001 C CNN "Vendor P/N"
+	1    13550 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R23
+U 1 1 4F7181AE
+P 13200 6100
+F 0 "R23" V 13280 6100 50  0000 C CNN
+F 1 "0.05 1/4W" V 13200 6100 50  0000 C CNN
+F 2 "SM0805" V 13300 6100 50  0000 C CNN
+F 4 "Panasonic" H 13200 6100 60  0001 C CNN "Manufacturer"
+F 5 "Digikey" H 13200 6100 60  0001 C CNN "Vendor"
+F 6 "P50LPCT-ND" H 13200 6100 60  0001 C CNN "Vendor P/N"
+	1    13200 6100
+	0    1    1    0   
+$EndComp
 Text Label 2000 4300 0    60   ~ 0
 AREF
 $Comp
@@ -685,7 +700,7 @@ L C C18
 U 1 1 4F716D5D
 P 13700 4950
 F 0 "C18" H 13750 5050 50  0000 L CNN
-F 1 "0.1 uF" H 13750 4850 50  0000 L CNN
+F 1 "10uF" H 13750 4850 50  0000 L CNN
 F 2 "SM0805" H 13750 4950 50  0000 C CNN
 	1    13700 4950
 	1    0    0    -1  
@@ -1216,7 +1231,7 @@ L C C11
 U 1 1 4F48A1B5
 P 7150 4950
 F 0 "C11" H 7200 5050 50  0000 L CNN
-F 1 "0.1 uF" H 7200 4850 50  0000 L CNN
+F 1 "10uF" H 7200 4850 50  0000 L CNN
 F 2 "SM0805" H 7200 4950 50  0000 C CNN
 	1    7150 4950
 	1    0    0    -1  
@@ -1691,7 +1706,7 @@ F 1 "GNDPWR" H 2300 2170 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2050 1050 0    60   ~ 0
-TODO: Select power connector\n
+TODO: Select power connector\nMore input capacitance\n
 $Comp
 L CONN_2 P1
 U 1 1 4F1A6D5D

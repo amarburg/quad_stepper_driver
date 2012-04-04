@@ -1,12 +1,16 @@
-# EESchema Netlist Version 1.1 created  Sun 01 Apr 2012 21:34:38 NZST
+# EESchema Netlist Version 1.1 created  Wed 04 Apr 2012 21:41:55 NZST
 (
+ ( /4F7C193A SM1206  R25 0.05_1/4W {Lib=R}
+  (    1 AGND )
+  (    2 N-000002 )
+ )
  ( /4F7181E7 SM1206  R24 0.05_1/4W {Lib=R}
   (    1 AGND )
-  (    2 N-000050 )
+  (    2 N-000053 )
  )
  ( /4F7181AE SM0805  R23 0.05_1/4W {Lib=R}
   (    1 AGND )
-  (    2 N-000051 )
+  (    2 N-000054 )
  )
  ( /4F717DBB SIL-1  P3 TST {Lib=TST}
   (    1 ? )
@@ -17,19 +21,19 @@
   (    3 VCC )
  )
  ( /4F7176EA SM0805  R14 330 {Lib=R}
-  (    1 N-000045 )
-  (    2 N-000048 )
+  (    1 N-000046 )
+  (    2 N-000049 )
  )
  ( /4F7175A7 SM0805  R20 10k {Lib=R}
   (    1 /MOT2_MS3 )
   (    2 DGND )
  )
  ( /4F7171F6 SM0805  D4 LED {Lib=LED}
-  (    1 N-000033 )
+  (    1 N-000035 )
   (    2 DGND )
  )
  ( /4F716D86 SM0805  D2 LED {Lib=LED}
-  (    1 N-000048 )
+  (    1 N-000049 )
   (    2 DGND )
  )
  ( /4F716D5D SM0805  C18 0.1_uF {Lib=C}
@@ -51,12 +55,12 @@
   (    2 DGND )
  )
  ( /4F716D33 SM0805  R17 n/p {Lib=R}
-  (    1 N-000014 )
+  (    1 N-000017 )
   (    2 GNDPWR )
  )
  ( /4F716D2D SM0805  R16 0 {Lib=R}
   (    1 VCC )
-  (    2 N-000014 )
+  (    2 N-000017 )
  )
  ( /4F716D27 SM0805  R12 10k {Lib=R}
   (    1 VCC )
@@ -71,26 +75,26 @@
   (    2 /MOT1_SLEEP )
  )
  ( /4F716CF2 SM0805  C12 0.22_uF {Lib=C}
-  (    1 N-000016 )
+  (    1 N-000015 )
   (    2 GNDPWR )
  )
  ( /4F716CEC SM0805  C16 0.1_uF {Lib=C}
-  (    1 N-000017 )
-  (    2 N-000018 )
+  (    1 N-000019 )
+  (    2 N-000016 )
  )
  ( /4F716CE6 SM0805  C15 0.1_uF {Lib=C}
   (    1 /MOT1_VPP )
-  (    2 N-000015 )
+  (    2 N-000014 )
  )
  ( /4F716CDA A4982_TSSOP24_with_pad  U4 A4982 {Lib=A4982}
-  (    1 N-000017 )
-  (    2 N-000018 )
-  (    3 N-000015 )
-  (    4 N-000016 )
+  (    1 N-000019 )
+  (    2 N-000016 )
+  (    3 N-000014 )
+  (    4 N-000015 )
   (    5 /MOT1_MS1 )
   (    6 /MOT1_MS2 )
   (    7 /MOT1_RESET )
-  (    8 N-000014 )
+  (    8 N-000017 )
   (    9 /MOT1_SLEEP )
   (   10 VCC )
   (   11 /MOT1_STEP )
@@ -99,10 +103,10 @@
   (   14 /DIR )
   (   15 /2_OUT1B )
   (   16 /MOT1_VPP )
-  (   17 N-000051 )
+  (   17 N-000054 )
   (   18 /2_OUT1A )
   (   19 /2_OUT2A )
-  (   20 N-000050 )
+  (   20 N-000053 )
   (   21 /MOT1_VPP )
   (   22 /2_OUT2B )
   (   23 /ENABLE )
@@ -142,14 +146,14 @@
   (   26 DGND )
  )
  ( /4F48A23F A4982_TSSOP24_with_pad  U1 A4982 {Lib=A4982}
-  (    1 N-000009 )
+  (    1 N-000008 )
   (    2 N-000001 )
-  (    3 N-000012 )
+  (    3 N-000011 )
   (    4 N-000013 )
   (    5 /MOT1_MS1 )
   (    6 /MOT1_MS2 )
   (    7 /MOT1_RESET )
-  (    8 N-000008 )
+  (    8 N-000007 )
   (    9 /MOT1_SLEEP )
   (   10 VCC )
   (   11 /MOT1_STEP )
@@ -158,10 +162,10 @@
   (   14 /DIR )
   (   15 /OUT1B )
   (   16 /MOT1_VPP )
-  (   17 N-000010 )
+  (   17 N-000009 )
   (   18 /OUT1A )
   (   19 /OUT2A )
-  (   20 ? )
+  (   20 N-000002 )
   (   21 /MOT1_VPP )
   (   22 /OUT2B )
   (   23 /ENABLE )
@@ -170,10 +174,10 @@
  )
  ( /4F48A233 SM0805  C7 0.1_uF {Lib=C}
   (    1 /MOT1_VPP )
-  (    2 N-000012 )
+  (    2 N-000011 )
  )
  ( /4F48A22D SM0805  C9 0.1_uF {Lib=C}
-  (    1 N-000009 )
+  (    1 N-000008 )
   (    2 N-000001 )
  )
  ( /4F48A227 SM0805  C2 0.22_uF {Lib=C}
@@ -190,7 +194,7 @@
  )
  ( /4F48A20D SM1206  R10 0.05_1/4W {Lib=R}
   (    1 AGND )
-  (    2 N-000010 )
+  (    2 N-000009 )
  )
  ( /4F48A1F2 SM0805  R2 10k {Lib=R}
   (    1 VCC )
@@ -198,10 +202,10 @@
  )
  ( /4F48A1EC SM0805  R4 0 {Lib=R}
   (    1 VCC )
-  (    2 N-000008 )
+  (    2 N-000007 )
  )
  ( /4F48A1E6 SM0805  R5 n/p {Lib=R}
-  (    1 N-000008 )
+  (    1 N-000007 )
   (    2 GNDPWR )
  )
  ( /4F48A1DA SM0805  C3 0.1_uF {Lib=C}
@@ -228,20 +232,20 @@
   (    3 /MOT1_SLEEP )
   (    4 /MOT1_RESET )
   (    5 /ENABLE )
-  (    6 N-000038 )
-  (    7 N-000039 )
+  (    6 N-000040 )
+  (    7 N-000041 )
   (    8 DGND )
   (    9 /SPI_CHAIN )
   (   10 VCC )
   (   11 /SPI_SCK )
   (   12 /SPI_CS )
   (   13 /SHIFT_REG_ENABLE )
-  (   14 N-000034 )
+  (   14 N-000036 )
   (   15 /MOT1_MS1 )
   (   16 VCC )
  )
  ( /4F3DDE2B SM0805  D3 LED {Lib=LED}
-  (    1 N-000041 )
+  (    1 N-000043 )
   (    2 DGND )
  )
  ( /4F1D29E7 SM0805  C8 1uF {Lib=C}
@@ -257,8 +261,8 @@
   (    2 DGND )
  )
  ( /4F1C16A7 SM0805  R19 330 {Lib=R}
-  (    1 N-000046 )
-  (    2 N-000041 )
+  (    1 N-000047 )
+  (    2 N-000043 )
  )
  ( /4F1C168C SM0805  R18 10k {Lib=R}
   (    1 /MOT1_MS3 )
@@ -278,10 +282,10 @@
   (    3 /MOT1_SLEEP )
   (    4 /MOT1_RESET )
   (    5 /ENABLE )
-  (    6 N-000045 )
-  (    7 N-000046 )
+  (    6 N-000046 )
+  (    7 N-000047 )
   (    8 DGND )
-  (    9 N-000034 )
+  (    9 N-000036 )
   (   10 VCC )
   (   11 /SPI_SCK )
   (   12 /SPI_CS )
@@ -291,7 +295,7 @@
   (   16 VCC )
  )
  ( /4F3DDF2B SM0805  D5 LED {Lib=LED}
-  (    1 N-000032 )
+  (    1 N-000034 )
   (    2 DGND )
  )
  ( /4F240602 SM0805  R9 330 {Lib=R}
@@ -325,12 +329,12 @@
   (    2 GNDPWR )
  )
  ( /4F1C1761 SM0805  R22 330 {Lib=R}
-  (    1 N-000039 )
-  (    2 N-000032 )
+  (    1 N-000041 )
+  (    2 N-000034 )
  )
  ( /4F1C1746 SM0805  R21 330 {Lib=R}
-  (    1 N-000038 )
-  (    2 N-000033 )
+  (    1 N-000040 )
+  (    2 N-000035 )
  )
  ( /4F1B6705 OSHW_10mm  U14 OHSW_LOGO {Lib=OHSW_LOGO}
  )
@@ -346,11 +350,11 @@
   (    1 GNDPWR )
  )
  ( /4F1A7183 Diode-SMA_Handsoldering_RevA_27July2010  D1 SCHOTTKY_3A_40V {Lib=DIODE}
-  (    1 N-000031 )
+  (    1 N-000033 )
   (    2 VPP )
  )
  ( /4F1A6D5D Phoenix_MSTBA_2  P1 POWER_IN {Lib=CONN_2}
-  (    1 N-000031 )
+  (    1 N-000033 )
   (    2 GNDPWR )
  )
  ( /4F18BDF0 SM0805  C5 10uF {Lib=C}
@@ -368,6 +372,13 @@
 )
 *
 { Allowed footprints by component:
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R24
  R?
  SM0603
@@ -671,282 +682,286 @@ $endfootprintlist
 Net 1 "" ""
  U1 2
  C9 2
+Net 2 "" ""
+ R25 2
+ U1 20
 Net 3 "/MOT1_VPP" "MOT1_VPP"
- C7 1
- C17 1
- U4 16
- R6 1
- C10 1
- U4 21
- C11 1
- U2 8
- U1 16
- U1 21
  C18 1
+ U4 21
+ C17 1
  C15 1
+ U1 16
+ C7 1
+ R6 1
+ U2 8
+ C11 1
+ C10 1
+ U1 21
+ U4 16
 Net 4 "/REFA" "REFA"
  U1 12
  U4 12
-Net 5 "DGND" "DGND"
- P6 4
- P6 2
- C13 2
- U3 8
- C14 2
- R18 2
- C4 2
- U6 8
- D3 2
- C8 2
- C6 2
- C3 2
- D5 2
- L2 2
- D4 2
- P6 26
- P6 16
- P6 6
- D2 2
- P6 8
- P6 24
- P6 14
- P6 22
- P6 12
- R20 2
- P6 20
-Net 6 "/MOT1_ISENSE" "MOT1_ISENSE"
+Net 5 "/MOT1_ISENSE" "MOT1_ISENSE"
  U2 1
- P6 10
  R7 2
-Net 7 "/MOT1_RESET" "MOT1_RESET"
- R2 2
- U4 7
- R12 2
- U1 7
+ P6 10
+Net 6 "/MOT1_RESET" "MOT1_RESET"
  U6 4
+ U4 7
  U3 4
-Net 8 "" ""
- U1 8
+ R12 2
+ R2 2
+ U1 7
+Net 7 "" ""
  R5 1
+ U1 8
  R4 2
-Net 9 "" ""
- C9 1
+Net 8 "" ""
  U1 1
-Net 10 "" ""
+ C9 1
+Net 9 "" ""
  R10 2
  U1 17
-Net 11 "/OUT2A" "OUT2A"
+Net 10 "/OUT2A" "OUT2A"
  P5 3
  U1 19
-Net 12 "" ""
+Net 11 "" ""
  U1 3
  C7 2
+Net 12 "DGND" "DGND"
+ C3 2
+ R18 2
+ U6 8
+ C4 2
+ C6 2
+ C8 2
+ D3 2
+ U3 8
+ L2 2
+ D5 2
+ D4 2
+ D2 2
+ R20 2
+ C13 2
+ C14 2
+ P6 2
+ P6 8
+ P6 20
+ P6 16
+ P6 26
+ P6 24
+ P6 14
+ P6 12
+ P6 4
+ P6 22
+ P6 6
 Net 13 "" ""
- C2 1
  U1 4
+ C2 1
 Net 14 "" ""
- R16 2
- R17 1
- U4 8
-Net 15 "" ""
- U4 3
  C15 2
-Net 16 "" ""
- U4 4
+ U4 3
+Net 15 "" ""
  C12 1
-Net 17 "" ""
- C16 1
- U4 1
-Net 18 "" ""
+ U4 4
+Net 16 "" ""
  U4 2
  C16 2
-Net 19 "/MOT2_ISENSE" "MOT2_ISENSE"
+Net 17 "" ""
+ R17 1
+ U4 8
+ R16 2
+Net 18 "/2_OUT2B" "2_OUT2B"
+ U4 22
+ P7 4
+Net 19 "" ""
+ U4 1
+ C16 1
+Net 20 "/SPI_CS" "SPI_CS"
+ P6 13
+ U3 12
+ U6 12
+Net 21 "/MOT2_ISENSE" "MOT2_ISENSE"
+ R9 2
  P6 18
  U2 2
- R9 2
-Net 20 "/SHIFT_REG_ENABLE" "SHIFT_REG_ENABLE"
- R15 2
- P6 15
- U6 13
+Net 22 "/SHIFT_REG_ENABLE" "SHIFT_REG_ENABLE"
  U3 13
-Net 21 "VCC" "VCC"
- C13 1
- C4 1
- RV1 3
- R16 1
- R12 1
- R15 1
+ R15 2
+ U6 13
+ P6 15
+Net 23 "VCC" "VCC"
+ P6 23
  C14 1
- U3 10
+ R12 1
+ U4 10
+ R4 1
+ R2 1
+ RV1 3
+ R13 1
+ R16 1
+ C13 1
+ R15 1
+ P6 25
+ R11 1
  U3 16
  R3 1
- U4 10
- R13 1
- R11 1
+ U3 10
+ R1 1
+ U1 10
  U6 16
  U6 10
  C3 1
- U1 10
- P6 23
  C6 1
- P6 25
+ C4 1
  C8 1
- R2 1
- R4 1
- R1 1
-Net 22 "/SPI_CS" "SPI_CS"
- U3 12
- U6 12
- P6 13
-Net 23 "VPP" "VPP"
+Net 24 "/SPI_SCK" "SPI_SCK"
+ U6 11
+ U3 11
+ P6 11
+Net 25 "VPP" "VPP"
+ P6 1
  D1 2
  C5 1
  C1 1
  U2 7
  U2 6
  R6 2
- P4 1
- P6 3
- P6 1
  R8 1
-Net 24 "/MOT1_STEP" "MOT1_STEP"
- P6 19
+ P6 3
+ P4 1
+Net 26 "/2_OUT1B" "2_OUT1B"
+ U4 15
+ P7 2
+Net 27 "/MOT1_STEP" "MOT1_STEP"
+ U4 11
  P6 5
  U1 11
- U4 11
-Net 25 "/DIR" "DIR"
- P6 7
+ P6 19
+Net 28 "/DIR" "DIR"
+ U4 14
  U1 14
  P6 21
- U4 14
-Net 26 "/SPI_MOSI" "SPI_MOSI"
+ P6 7
+Net 29 "/SPI_MOSI" "SPI_MOSI"
  P6 9
  U6 14
-Net 27 "/SPI_SCK" "SPI_SCK"
- U6 11
- P6 11
- U3 11
-Net 28 "/MOT2_VPP" "MOT2_VPP"
+Net 30 "/MOT2_VPP" "MOT2_VPP"
  R8 2
  U2 5
-Net 30 "GNDPWR" "GNDPWR"
- R5 2
- C11 2
- U4 24
- U1 24
- C18 2
- P4 2
- C10 2
- U4 P
- C1 2
- R17 2
- L1 1
- U4 13
- C2 2
- P2 1
- P1 2
- C5 2
- C17 2
- U1 13
- U1 P
+Net 32 "GNDPWR" "GNDPWR"
  C12 2
-Net 31 "" ""
+ C2 2
+ C17 2
+ U4 P
+ U1 24
+ R5 2
+ P2 1
+ C11 2
+ C10 2
+ U1 13
+ P4 2
+ U4 24
+ U1 P
+ C5 2
+ P1 2
+ L1 1
+ C1 2
+ C18 2
+ U4 13
+ R17 2
+Net 33 "" ""
  P1 1
  D1 1
-Net 32 "" ""
- R22 2
- D5 1
-Net 33 "" ""
- R21 2
- D4 1
 Net 34 "" ""
+ D5 1
+ R22 2
+Net 35 "" ""
+ D4 1
+ R21 2
+Net 36 "" ""
  U3 14
  U6 9
-Net 35 "/MOT1_MS2" "MOT1_MS2"
- U1 6
+Net 37 "/MOT1_MS2" "MOT1_MS2"
  U4 6
  U6 1
  U3 1
-Net 36 "/MOT1_MS1" "MOT1_MS1"
- U3 15
- U6 15
+ U1 6
+Net 38 "/MOT1_MS1" "MOT1_MS1"
  U1 5
+ U6 15
+ U3 15
  U4 5
-Net 37 "/ENABLE" "ENABLE"
- U3 5
- R13 2
- U4 23
- U6 5
+Net 39 "/ENABLE" "ENABLE"
  R3 2
+ U4 23
  U1 23
-Net 38 "" ""
+ U3 5
+ U6 5
+ R13 2
+Net 40 "" ""
  U3 6
  R21 1
-Net 39 "" ""
- R22 1
+Net 41 "" ""
  U3 7
-Net 40 "/SPI_CHAIN" "SPI_CHAIN"
+ R22 1
+Net 42 "/SPI_CHAIN" "SPI_CHAIN"
  P6 17
  U3 9
-Net 41 "" ""
+Net 43 "" ""
  D3 1
  R19 2
-Net 42 "/OUT2B" "OUT2B"
- U1 22
- P5 4
-Net 43 "/OUT1A" "OUT1A"
- U1 18
+Net 44 "/OUT1A" "OUT1A"
  P5 1
-Net 44 "/OUT1B" "OUT1B"
- U1 15
+ U1 18
+Net 45 "/OUT1B" "OUT1B"
  P5 2
-Net 45 "" ""
- U6 6
- R14 1
+ U1 15
 Net 46 "" ""
+ R14 1
+ U6 6
+Net 47 "" ""
  U6 7
  R19 1
-Net 47 "/MOT1_MS3" "MOT1_MS3"
+Net 48 "/MOT1_MS3" "MOT1_MS3"
  R18 1
  U6 2
-Net 48 "" ""
+Net 49 "" ""
  D2 1
  R14 2
-Net 49 "/MOT1_SLEEP" "MOT1_SLEEP"
- R1 2
- U6 3
- R11 2
+Net 50 "/MOT1_SLEEP" "MOT1_SLEEP"
  U1 9
+ R11 2
+ U6 3
  U3 3
+ R1 2
  U4 9
-Net 50 "" ""
- U4 20
- R24 2
-Net 51 "" ""
- R23 2
- U4 17
+Net 51 "/OUT2B" "OUT2B"
+ U1 22
+ P5 4
 Net 52 "AGND" "AGND"
- R24 1
- R10 1
- L2 1
  U2 4
- R23 1
  R9 1
  R7 1
  L1 2
+ L2 1
+ R23 1
+ R24 1
+ R25 1
  RV1 1
-Net 53 "/2_OUT1B" "2_OUT1B"
- P7 2
- U4 15
-Net 54 "/2_OUT2B" "2_OUT2B"
- U4 22
- P7 4
+ R10 1
+Net 53 "" ""
+ U4 20
+ R24 2
+Net 54 "" ""
+ R23 2
+ U4 17
 Net 57 "/2_OUT1A" "2_OUT1A"
  P7 1
  U4 18
 Net 58 "/2_OUT2A" "2_OUT2A"
- U4 19
  P7 3
+ U4 19
 Net 59 "/MOT2_MS3" "MOT2_MS3"
  U3 2
  R20 1
