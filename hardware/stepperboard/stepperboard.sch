@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Apr 2012 21:50:53 NZST
+EESchema Schematic File Version 2  date Thu 05 Apr 2012 19:17:34 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "4 apr 2012"
+Date "5 apr 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -52,6 +52,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 13700 5150
+Wire Wire Line
+	14150 5150 13300 5150
+Connection ~ 7150 4700
+Wire Wire Line
+	7550 4750 7550 4700
+Wire Wire Line
+	7550 4700 5600 4700
 Wire Wire Line
 	6900 6200 7250 6200
 Wire Wire Line
@@ -84,8 +92,6 @@ Wire Wire Line
 	9500 3000 9500 2950
 Wire Wire Line
 	6350 5850 7600 5850
-Wire Wire Line
-	6750 5150 7150 5150
 Connection ~ 6750 4700
 Wire Wire Line
 	6750 4700 6750 4750
@@ -187,8 +193,6 @@ Wire Wire Line
 	7500 5700 7500 5600
 Wire Wire Line
 	7500 5600 7850 5600
-Wire Wire Line
-	7150 4700 5600 4700
 Wire Wire Line
 	7150 4700 7150 4750
 Connection ~ 6350 4700
@@ -424,12 +428,10 @@ Wire Wire Line
 Wire Wire Line
 	12150 4150 12150 4700
 Wire Wire Line
-	13700 5200 13700 5150
+	13700 5150 13700 5200
 Connection ~ 12900 4700
 Wire Wire Line
-	13700 4750 13700 4700
-Wire Wire Line
-	13700 4700 12150 4700
+	13700 4700 13700 4750
 Wire Wire Line
 	14400 5600 14050 5600
 Wire Wire Line
@@ -532,8 +534,6 @@ Wire Wire Line
 	13300 4750 13300 4700
 Connection ~ 13300 4700
 Wire Wire Line
-	13700 5150 13300 5150
-Wire Wire Line
 	14150 5850 12900 5850
 Wire Wire Line
 	10900 8100 11150 8100
@@ -549,6 +549,34 @@ Wire Wire Line
 	5750 6900 4450 6900
 Wire Wire Line
 	6350 6200 6400 6200
+Wire Wire Line
+	7550 5150 6750 5150
+Connection ~ 7150 5150
+Wire Wire Line
+	12150 4700 14150 4700
+Wire Wire Line
+	14150 4700 14150 4750
+Connection ~ 13700 4700
+$Comp
+L C C20
+U 1 1 4F7D42A7
+P 14150 4950
+F 0 "C20" H 14200 5050 50  0000 L CNN
+F 1 "100uF" H 14200 4850 50  0000 L CNN
+F 2 "cap_polarized_5mm_leads_10mm_od" H 14200 4950 50  0000 C CNN
+	1    14150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 4F7D405A
+P 7550 4950
+F 0 "C19" H 7600 5050 50  0000 L CNN
+F 1 "100uF" H 7600 4850 50  0000 L CNN
+F 2 "cap_polarized_5mm_leads_10mm_od" H 7600 4950 50  0000 C CNN
+	1    7550 4950
+	1    0    0    -1  
+$EndComp
 $Comp
 L R R25
 U 1 1 4F7C193A
@@ -581,7 +609,7 @@ U 1 1 4F7181AE
 P 13200 6100
 F 0 "R23" V 13280 6100 50  0000 C CNN
 F 1 "0.05 1/4W" V 13200 6100 50  0000 C CNN
-F 2 "SM0805" V 13300 6100 50  0000 C CNN
+F 2 "SM1206" V 13300 6100 50  0000 C CNN
 F 4 "Panasonic" H 13200 6100 60  0001 C CNN "Manufacturer"
 F 5 "Digikey" H 13200 6100 60  0001 C CNN "Vendor"
 F 6 "P50LPCT-ND" H 13200 6100 60  0001 C CNN "Vendor P/N"
@@ -701,7 +729,7 @@ U 1 1 4F716D5D
 P 13700 4950
 F 0 "C18" H 13750 5050 50  0000 L CNN
 F 1 "10uF" H 13750 4850 50  0000 L CNN
-F 2 "SM0805" H 13750 4950 50  0000 C CNN
+F 2 "cap_polarized_2mm_leads_5mm_od" H 13750 4950 50  0000 C CNN
 	1    13700 4950
 	1    0    0    -1  
 $EndComp
@@ -721,7 +749,9 @@ U 1 1 4F716D51
 P 14750 5550
 F 0 "P7" V 14700 5550 50  0000 C CNN
 F 1 "CONN_4" V 14800 5550 50  0000 C CNN
-F 2 "Phoenix_MSTBA_4" V 14900 5550 50  0000 C CNN
+F 2 "Phoenix_MC_4_3.5" V 14900 5550 50  0000 C CNN
+F 4 "Phoenix Contact" H 14750 5550 60  0001 C CNN "Manufacturer"
+F 5 "1844236 MC 1,5/ 4-G-3,5 " H 14750 5550 60  0001 C CNN "Manufacturer P/N"
 	1    14750 5550
 	1    0    0    -1  
 $EndComp
@@ -1212,7 +1242,9 @@ U 1 1 4F48A1C1
 P 8200 5550
 F 0 "P5" V 8150 5550 50  0000 C CNN
 F 1 "CONN_4" V 8250 5550 50  0000 C CNN
-F 2 "Phoenix_MSTBA_4" V 8350 5550 50  0000 C CNN
+F 2 "Phoenix_MC_4_3.5" V 8350 5550 50  0000 C CNN
+F 4 "Phoenix Contact" H 8200 5550 60  0001 C CNN "Manufacturer"
+F 5 "1844236 MC 1,5/ 4-G-3,5 " H 8200 5550 60  0001 C CNN "Manufacturer P/N"
 	1    8200 5550
 	1    0    0    -1  
 $EndComp
@@ -1232,7 +1264,7 @@ U 1 1 4F48A1B5
 P 7150 4950
 F 0 "C11" H 7200 5050 50  0000 L CNN
 F 1 "10uF" H 7200 4850 50  0000 L CNN
-F 2 "SM0805" H 7200 4950 50  0000 C CNN
+F 2 "cap_polarized_2mm_leads_5mm_od" H 7200 4950 50  0000 C CNN
 	1    7150 4950
 	1    0    0    -1  
 $EndComp
@@ -1540,7 +1572,7 @@ U 1 1 4F1D1B0A
 P 2800 2000
 F 0 "C1" H 2850 2100 50  0000 L CNN
 F 1 "100uF 30V" H 2850 1900 50  0000 L CNN
-F 2 "SMD_electrolytic_8mm_cap" H 2850 2000 50  0000 C CNN
+F 2 "cap_polarized_5mm_leads_10mm_od" H 2850 2000 50  0000 C CNN
 F 4 "Panasonic" H 2800 2000 60  0001 C CNN "Manufacturer"
 F 5 "EEE-1HA101UP" H 2800 2000 60  0001 C CNN "Manufacturer P/N"
 F 6 "PCE3917CT-ND" H 2800 2000 60  0001 C CNN "Digikey P/N"

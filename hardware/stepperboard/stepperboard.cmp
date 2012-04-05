@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Sun 01 Apr 2012 21:24:41 NZST
+Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Thu 05 Apr 2012 19:14:58 NZST
 
 BeginCmp
 TimeStamp = /4F1D1B0A;
 Reference = C1;
 ValeurCmp = 100uF_30V;
-IdModule  = SMD_electrolytic_8mm_cap;
+IdModule  = cap_polarized_5mm_leads_10mm_od;
 EndCmp
 
 BeginCmp
@@ -73,8 +73,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4F48A1B5;
 Reference = C11;
-ValeurCmp = 0.1_uF;
-IdModule  = SM0805;
+ValeurCmp = 10uF;
+IdModule  = cap_polarized_2mm_leads_5mm_od;
 EndCmp
 
 BeginCmp
@@ -122,8 +122,22 @@ EndCmp
 BeginCmp
 TimeStamp = /4F716D5D;
 Reference = C18;
-ValeurCmp = 0.1_uF;
-IdModule  = SM0805;
+ValeurCmp = 10uF;
+IdModule  = cap_polarized_2mm_leads_5mm_od;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7D405A;
+Reference = C19;
+ValeurCmp = 100uF;
+IdModule  = cap_polarized_5mm_leads_10mm_od;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7D42A7;
+Reference = C20;
+ValeurCmp = 100uF;
+IdModule  = cap_polarized_5mm_leads_10mm_od;
 EndCmp
 
 BeginCmp
@@ -207,7 +221,7 @@ BeginCmp
 TimeStamp = /4F48A1C1;
 Reference = P5;
 ValeurCmp = CONN_4;
-IdModule  = Phoenix_MSTBA_4;
+IdModule  = Phoenix_MC_4_3.5;
 EndCmp
 
 BeginCmp
@@ -221,7 +235,7 @@ BeginCmp
 TimeStamp = /4F716D51;
 Reference = P7;
 ValeurCmp = CONN_4;
-IdModule  = Phoenix_MSTBA_4;
+IdModule  = Phoenix_MC_4_3.5;
 EndCmp
 
 BeginCmp
@@ -382,12 +396,19 @@ BeginCmp
 TimeStamp = /4F7181AE;
 Reference = R23;
 ValeurCmp = 0.05_1/4W;
-IdModule  = SM0805;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F7181E7;
 Reference = R24;
+ValeurCmp = 0.05_1/4W;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7C193A;
+Reference = R25;
 ValeurCmp = 0.05_1/4W;
 IdModule  = SM1206;
 EndCmp
