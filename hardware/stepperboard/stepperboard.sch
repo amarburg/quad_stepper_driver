@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 05 Apr 2012 19:17:34 NZST
+EESchema Schematic File Version 2  date Thu 05 Apr 2012 19:58:20 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -753,7 +753,7 @@ F 2 "Phoenix_MC_4_3.5" V 14900 5550 50  0000 C CNN
 F 4 "Phoenix Contact" H 14750 5550 60  0001 C CNN "Manufacturer"
 F 5 "1844236 MC 1,5/ 4-G-3,5 " H 14750 5550 60  0001 C CNN "Manufacturer P/N"
 	1    14750 5550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L VCC #PWR04
@@ -1246,7 +1246,7 @@ F 2 "Phoenix_MC_4_3.5" V 8350 5550 50  0000 C CNN
 F 4 "Phoenix Contact" H 8200 5550 60  0001 C CNN "Manufacturer"
 F 5 "1844236 MC 1,5/ 4-G-3,5 " H 8200 5550 60  0001 C CNN "Manufacturer P/N"
 	1    8200 5550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L C C10
