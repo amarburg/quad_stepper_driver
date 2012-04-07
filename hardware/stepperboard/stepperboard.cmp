@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Thu 05 Apr 2012 19:14:58 NZST
+Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Sat 07 Apr 2012 20:02:45 NZST
 
 BeginCmp
 TimeStamp = /4F1D1B0A;
@@ -176,13 +176,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F18BB4A;
-Reference = L1;
-ValeurCmp = FERRITE;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F18B534;
 Reference = L2;
 ValeurCmp = FERRITE;
@@ -312,7 +305,7 @@ BeginCmp
 TimeStamp = /4F716CF8;
 Reference = R11;
 ValeurCmp = 10k;
-IdModule  = SM1206;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
