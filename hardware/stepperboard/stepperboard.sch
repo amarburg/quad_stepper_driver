@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 07 Apr 2012 20:13:20 NZST
+EESchema Schematic File Version 2  date Mon 16 Apr 2012 21:06:59 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "7 apr 2012"
+Date "16 apr 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -52,6 +52,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1700 4300
 Wire Wire Line
 	6350 5400 7200 5400
 Wire Wire Line
@@ -657,7 +658,7 @@ F 6 "P50LPCT-ND" H 13200 6100 60  0001 C CNN "Vendor P/N"
 	0    1    1    0   
 $EndComp
 Text Label 2000 4300 0    60   ~ 0
-AREF
+REFA
 $Comp
 L TST P3
 U 1 1 4F717DBB
