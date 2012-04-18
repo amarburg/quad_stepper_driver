@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 01 Apr 2012 20:57:56 NZST
+# EESchema Netlist Version 1.1 created  Wed 18 Apr 2012 20:58:23 NZST
 (
  ( /4F68075B SM0805  L3 FERRITE {Lib=INDUCTOR}
   (    1 GNDSERVO )
@@ -59,7 +59,7 @@
   (    3 /RESET )
   (    4 N-000053 )
  )
- ( /4F557991 SM0805  L2 FERRITE {Lib=INDUCTOR}
+ ( /4F557991 SM0603  L2 FERRITE {Lib=INDUCTOR}
   (    1 AGND )
   (    2 DGND )
  )
@@ -162,7 +162,7 @@
   (    7 /DIO_6 )
   (    8 DGND )
  )
- ( /4F236407 SM0805  C17 0.1uF {Lib=C}
+ ( /4F236407 SM0603  C17 0.1uF {Lib=C}
   (    1 VDD )
   (    2 DGND )
  )
@@ -304,27 +304,27 @@
   (   15 /MOT4_STEP )
   (   16 DGND )
  )
- ( /4F1D2E7E SM0805  C1 0.1uF {Lib=C}
+ ( /4F1D2E7E SM0603  C1 0.1uF {Lib=C}
   (    1 /FTDI_VBUS )
   (    2 DGND )
  )
- ( /4F1D2E0E SM0805  C4 0.1uF {Lib=C}
+ ( /4F1D2E0E SM0603  C4 0.1uF {Lib=C}
   (    1 /FTDI_3V3 )
   (    2 DGND )
  )
- ( /4F1D2809 SM0805  C16 0.1uF {Lib=C}
+ ( /4F1D2809 SM0603  C16 0.1uF {Lib=C}
   (    1 VDD )
   (    2 DGND )
  )
- ( /4F1D27FF SM0805  C15 0.1uF {Lib=C}
+ ( /4F1D27FF SM0603  C15 0.1uF {Lib=C}
   (    1 VDD )
   (    2 DGND )
  )
- ( /4F1D27F5 SM0805  C14 0.1uF {Lib=C}
+ ( /4F1D27F5 SM0603  C14 0.1uF {Lib=C}
   (    1 VDD )
   (    2 DGND )
  )
- ( /4F1D27C1 SM0805  C13 0.1uF {Lib=C}
+ ( /4F1D27C1 SM0603  C13 0.1uF {Lib=C}
   (    1 VDD )
   (    2 AGND )
  )
@@ -336,7 +336,7 @@
   (    1 VDD )
   (    2 DGND )
  )
- ( /4F1D2228 SM0805  C8 0.1uF {Lib=C}
+ ( /4F1D2228 SM0603  C8 0.1uF {Lib=C}
   (    1 N-000104 )
   (    2 GNDSERVO )
  )
@@ -366,13 +366,13 @@
  )
  ( /4F1B6705 OSHW_10mm  U14 OSHW_LOGO {Lib=OHSW_LOGO}
  )
- ( /4F1B52F8 4mm_clearance_hole  U15 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B52F8 4mm_clearance_hole  U15 4MM_HOLE {Lib=5MM_HOLE}
  )
- ( /4F1B52D4 4mm_clearance_hole  U13 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B52D4 4mm_clearance_hole  U13 4MM_HOLE {Lib=5MM_HOLE}
  )
- ( /4F1B52CC 4mm_clearance_hole  U12 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B52CC 4mm_clearance_hole  U12 4MM_HOLE {Lib=5MM_HOLE}
  )
- ( /4F1B5295 4mm_clearance_hole  U11 5MM_HOLE {Lib=5MM_HOLE}
+ ( /4F1B5295 4mm_clearance_hole  U11 4MM_HOLE {Lib=5MM_HOLE}
  )
  ( /4F1B4AED SIL-1  P_VDD1 TST {Lib=TST}
   (    1 VDD )
@@ -490,7 +490,7 @@
   (    7 VDD )
   (    8 /JTAG_TRST )
  )
- ( /4F18BDF6 SM0805  C9 0.1uF {Lib=C}
+ ( /4F18BDF6 SM0603  C9 0.1uF {Lib=C}
   (    1 N-000104 )
   (    2 GNDPWR )
  )
@@ -498,7 +498,7 @@
   (    1 N-000104 )
   (    2 GNDPWR )
  )
- ( /4F18BB4A SM0805  L1 FERRITE {Lib=INDUCTOR}
+ ( /4F18BB4A SM0603  L1 FERRITE {Lib=INDUCTOR}
   (    1 GNDPWR )
   (    2 DGND )
  )
