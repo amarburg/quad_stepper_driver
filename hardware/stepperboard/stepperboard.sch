@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Apr 2012 21:06:59 NZST
+EESchema Schematic File Version 2  date Tue 24 Apr 2012 21:54:43 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "16 apr 2012"
+Date "24 apr 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -947,6 +947,9 @@ P 4250 1850
 F 0 "P4" V 4200 1850 40  0000 C CNN
 F 1 "POWER_OUT" V 4300 1850 40  0000 C CNN
 F 2 "Phoenix_IC_2" V 4400 1850 40  0000 C CNN
+F 4 "Phoenix Contact" H 4250 1850 60  0001 C CNN "Manufacturer"
+F 5 "1943302 IC 2.5 HC/ 2-G-5.08" H 4250 1850 60  0001 C CNN "Manufacturer P/N"
+F 6 "Element14" H 4250 1850 60  0001 C CNN "Vendor"
 	1    4250 1850
 	1    0    0    -1  
 $EndComp
@@ -1723,6 +1726,10 @@ P 1900 1850
 F 0 "P1" V 1850 1850 40  0000 C CNN
 F 1 "POWER_IN" V 1950 1850 40  0000 C CNN
 F 2 "Phoenix_MSTBA_2" V 2050 1850 40  0000 C CNN
+F 4 "Phoenix Contact" H 1900 1850 60  0001 C CNN "Manufacturer"
+F 5 "1757242" H 1900 1850 60  0001 C CNN "Manufacturer P/N"
+F 6 "Element14" H 1900 1850 60  0001 C CNN "Vendor"
+F 7 "3705171" H 1900 1850 60  0001 C CNN "Vendor P/N"
 	1    1900 1850
 	-1   0    0    -1  
 $EndComp
