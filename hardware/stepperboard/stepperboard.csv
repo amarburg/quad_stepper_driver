@@ -1,0 +1,25 @@
+              0;  2;         SM0805;"R4, R16"
+      0.05 1/4W;  4;         SM1206;"R10, R23, R24, R25";Panasonic;Digikey;P50LPCT-ND
+         0.1 uF;  8;         SM0805;"C3, C7, C9, C10, C13, C15, C16, C17"
+        0.22 uF;  2;         SM0805;"C2, C12"
+          100uF;  2;cap_polarized_5mm_leads_10mm_od;"C19, C20"
+      100uF 30V;  1;cap_polarized_5mm_leads_10mm_od;"C1";Panasonic;EEE-1HA101UP;PCE3917CT-ND;CAP ELECT 100UF 50V VS SMD
+            10k;  9;         SM0805;"R1, R2, R3, R11, R12, R13, R15, R18, R20"
+           10uF;  3;cap_polarized_2mm_leads_5mm_od;"C5, C11, C18"; AVX;0805YD106KAT2A;478-5165-1-ND;10uF 16V
+            1uF;  4;         SM0805;"C4, C6, C8, C14";Murata;GRM188R61A105KA61D;490-1543-1-ND;1uF 10V
+            330;  8;         SM0805;"R6, R7, R8, R9, R14, R19, R21, R22"
+       4MM_HOLE;  4;4mm_clearance_hole;"U11, U12, U13, U15"
+        74HC595;  2;          SO16E;"U3, U6";  TI;CD74HC595SM96;Digikey;296-18404-1-ND
+          A4982;  2;A4982_TSSOP24_with_pad;"U1, U4"
+      CONN_13X2;  1; pin_array_13x2;"P6"
+         CONN_4;  2;Phoenix_MC_4_3.5;"P5, P7";Phoenix Contact;1844236 MC 1,5/ 4-G-3,5 
+        FERRITE;  1;         SM0805;"L2"
+            LED;  4;         SM0805;"D2, D3, D4, D5";Lite-On;LTST-C171;Digikey;160-1421-1-ND
+        LTC6103;  1;         MSOP_8;"U2"
+            n/p;  2;         SM0805;"R5, R17"
+      OHSW_LOGO;  1;      OSHW_10mm;"U14"
+            POT;  1;      PV36W_pot;"RV1"
+       POWER_IN;  1;Phoenix_MSTBA_2;"P1";Phoenix Contact;1757242;Element14;3705171
+      POWER_OUT;  1;   Phoenix_IC_2;"P4";Phoenix Contact;1943302 IC 2.5 HC/ 2-G-5.08;Element14
+SCHOTTKY 3A 40V;  1;Diode-SMA_Handsoldering_RevA_27July2010;"D1";B340A-13-F;B340A-FDICT-ND;DIODE SCHOTTKY 3A 40V SMA
+            TST;  2;          SIL-1;"P2, P3"

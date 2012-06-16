@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Apr 2012 21:54:43 NZST
+EESchema Schematic File Version 2  date Sat 16 Jun 2012 21:00:54 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "24 apr 2012"
+Date "16 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -685,6 +685,10 @@ P 1250 4300
 F 0 "RV1" H 1250 4200 50  0000 C CNN
 F 1 "POT" H 1250 4300 50  0000 C CNN
 F 2 "PV36W_pot" H 1250 4400 50  0000 C CNN
+F 4 "Murata" H 1250 4300 60  0001 C CNN "Manufacturer"
+F 5 "PV36W103C01B00" H 1250 4300 60  0001 C CNN "Manufacturer P/N"
+F 6 "Digikey" H 1250 4300 60  0001 C CNN "Vendor"
+F 7 "490-2875-ND" H 1250 4300 60  0001 C CNN "Vendor P/N"
 	1    1250 4300
 	0    1    -1   0   
 $EndComp
@@ -1543,6 +1547,10 @@ P 5250 2000
 F 0 "U2" H 5300 1450 60  0000 C CNN
 F 1 "LTC6103" H 5800 1700 60  0000 C CNN
 F 2 "MSOP_8" H 5800 1800 60  0000 C CNN
+F 4 "Linear" H 5250 2000 60  0001 C CNN "Manufacturer"
+F 5 "LTC6103CMS8#PBF	" H 5250 2000 60  0001 C CNN "Manufacturer P/N"
+F 6 "Digikey" H 5250 2000 60  0001 C CNN "Vendor"
+F 7 "LTC6103CMS8#PBF-ND" H 5250 2000 60  0001 C CNN "Vendor P/N"
 	1    5250 2000
 	1    0    0    -1  
 $EndComp
