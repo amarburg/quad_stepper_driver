@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Jun 2012 14:36:36 NZST
+EESchema Schematic File Version 2  date Sun 17 Jun 2012 22:00:17 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -37,13 +37,14 @@ LIBS:my_power
 LIBS:my_conn
 LIBS:my_ftdi
 LIBS:misc
+LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "12 jun 2012"
+Date "17 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -51,6 +52,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	15350 7750 14550 7750
+Wire Wire Line
+	15350 7550 14550 7550
+Wire Wire Line
+	15350 7350 14550 7350
+Connection ~ 15350 7750
+Connection ~ 15350 7650
+Connection ~ 15350 7550
+Connection ~ 15350 7450
+Connection ~ 15350 7350
+Connection ~ 15350 7250
+Connection ~ 15350 5850
+Connection ~ 15350 6400
+Wire Wire Line
+	14850 6400 14650 6400
+Connection ~ 15350 5250
+Connection ~ 15350 4650
+Wire Wire Line
+	14850 5250 14700 5250
 Connection ~ 3000 3750
 Wire Wire Line
 	2900 3750 3000 3750
@@ -181,12 +202,6 @@ Wire Wire Line
 	15350 7850 15300 7850
 Wire Wire Line
 	15300 7850 15300 7950
-Wire Wire Line
-	15350 7750 14950 7750
-Wire Wire Line
-	15350 7550 14950 7550
-Wire Wire Line
-	15350 7350 14950 7350
 Wire Wire Line
 	14000 7400 13200 7400
 Wire Wire Line
@@ -335,8 +350,6 @@ Connection ~ 14800 4750
 Wire Wire Line
 	14800 5350 15350 5350
 Wire Wire Line
-	15350 6400 14900 6400
-Wire Wire Line
 	15250 6700 15250 6600
 Wire Wire Line
 	15250 6600 15350 6600
@@ -344,10 +357,6 @@ Wire Wire Line
 	15350 6050 15250 6050
 Wire Wire Line
 	15250 6050 15250 6150
-Wire Wire Line
-	15350 5850 14900 5850
-Wire Wire Line
-	15350 5250 14900 5250
 Wire Wire Line
 	15250 5550 15250 5450
 Wire Wire Line
@@ -667,8 +676,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 1800 9100 1800
 Wire Wire Line
-	15350 4650 14900 4650
-Wire Wire Line
 	15350 4750 14800 4750
 Wire Wire Line
 	14800 5950 15350 5950
@@ -827,12 +834,6 @@ Wire Wire Line
 Wire Wire Line
 	13150 7150 12350 7150
 Wire Wire Line
-	14950 7250 15350 7250
-Wire Wire Line
-	14950 7450 15350 7450
-Wire Wire Line
-	14950 7650 15350 7650
-Wire Wire Line
 	15350 7150 15300 7150
 Wire Wire Line
 	15300 7150 15300 7100
@@ -916,6 +917,56 @@ Wire Wire Line
 	3000 3800 3000 3650
 Wire Wire Line
 	3000 3650 2900 3650
+Wire Wire Line
+	14650 4650 14850 4650
+Wire Wire Line
+	14850 5850 14600 5850
+Wire Wire Line
+	15350 7250 14550 7250
+Wire Wire Line
+	15350 7450 14550 7450
+Wire Wire Line
+	15350 7650 14550 7650
+$Comp
+L R R20
+U 1 1 4FDDAB2A
+P 15100 6400
+F 0 "R20" V 15180 6400 50  0000 C CNN
+F 1 "1k" V 15100 6400 50  0000 C CNN
+F 2 "SM0805" V 15200 6400 50  0000 C CNN
+	1    15100 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R19
+U 1 1 4FDDA949
+P 15100 5850
+F 0 "R19" V 15180 5850 50  0000 C CNN
+F 1 "1k" V 15100 5850 50  0000 C CNN
+F 2 "SM0805" V 15200 5850 50  0000 C CNN
+	1    15100 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R18
+U 1 1 4FDDA768
+P 15100 5250
+F 0 "R18" V 15180 5250 50  0000 C CNN
+F 1 "1k" V 15100 5250 50  0000 C CNN
+F 2 "SM0805" V 15200 5250 50  0000 C CNN
+	1    15100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R8
+U 1 1 4FDDA573
+P 15100 4650
+F 0 "R8" V 15180 4650 50  0000 C CNN
+F 1 "1k" V 15100 4650 50  0000 C CNN
+F 2 "SM0805" V 15200 4650 50  0000 C CNN
+	1    15100 4650
+	0    -1   -1   0   
+$EndComp
 $Comp
 L DGND #PWR01
 U 1 1 4FD6AA73
@@ -1394,10 +1445,10 @@ $EndComp
 Text Label 9100 2100 0    60   ~ 0
 SPI_CHAIN
 $Comp
-L VPP #PWR46
+L VPP #PWR45
 U 1 1 4F489840
 P 9500 1250
-F 0 "#PWR46" H 9500 1450 40  0001 C CNN
+F 0 "#PWR45" H 9500 1450 40  0001 C CNN
 F 1 "VPP" H 9500 1400 40  0000 C CNN
 	1    9500 1250
 	1    0    0    -1  
@@ -1423,12 +1474,12 @@ L R R12
 U 1 1 4F3DD78C
 P 4650 10200
 F 0 "R12" V 4700 10400 50  0000 C CNN
-F 1 "270" V 4650 10200 50  0000 C CNN
+F 1 "330" V 4650 10200 50  0000 C CNN
 F 2 "SM0805" V 4750 10200 50  0000 C CNN
 F 4 "Rohm" H 4650 10200 60  0001 C CNN "Manufacturer"
-F 5 "MCR10EZHF2700" H 4650 10200 60  0001 C CNN "Manufacturer P/N"
+F 5 "MCR10ERTF3300" H 4650 10200 60  0001 C CNN "Manufacturer P/N"
 F 6 "Digikey" H 4650 10200 60  0001 C CNN "Vendor"
-F 7 "RHM270CCT-ND" H 4650 10200 60  0001 C CNN "Vendor P/N"
+F 7 "RHM330CHCT-ND" H 4650 10200 60  0001 C CNN "Vendor P/N"
 	1    4650 10200
 	0    -1   -1   0   
 $EndComp
@@ -1476,17 +1527,17 @@ Text Label 7100 4750 0    60   ~ 0
 DIO_2
 Text Label 7100 4650 0    60   ~ 0
 DIO_1
-Text Label 15000 7750 0    60   ~ 0
+Text Label 14550 7750 0    60   ~ 0
 DIO_6
-Text Label 15000 7650 0    60   ~ 0
+Text Label 14550 7650 0    60   ~ 0
 DIO_5
-Text Label 15000 7550 0    60   ~ 0
+Text Label 14550 7550 0    60   ~ 0
 DIO_4
-Text Label 15000 7450 0    60   ~ 0
+Text Label 14550 7450 0    60   ~ 0
 DIO_3
-Text Label 15000 7350 0    60   ~ 0
+Text Label 14550 7350 0    60   ~ 0
 DIO_2
-Text Label 15000 7250 0    60   ~ 0
+Text Label 14550 7250 0    60   ~ 0
 DIO_1
 $Comp
 L VDD #PWR023
@@ -1805,9 +1856,9 @@ F 2 "SIL-3" V 15850 6500 40  0000 C CNN
 	1    15700 6500
 	1    0    0    1   
 $EndComp
-Text Label 14900 6400 0    60   ~ 0
+Text Label 14650 6400 0    60   ~ 0
 SERVO4
-Text Label 14900 5850 0    60   ~ 0
+Text Label 14600 5850 0    60   ~ 0
 SERVO3
 $Comp
 L CONN_3 K4
@@ -1829,9 +1880,9 @@ F 2 "SIL-3" V 15850 5350 40  0000 C CNN
 	1    15700 5350
 	1    0    0    1   
 $EndComp
-Text Label 14900 5250 0    60   ~ 0
+Text Label 14700 5250 0    60   ~ 0
 SERVO2
-Text Label 14900 4650 0    60   ~ 0
+Text Label 14650 4650 0    60   ~ 0
 SERVO1
 $Comp
 L VSERVO #PWR031
@@ -2093,7 +2144,7 @@ L R R10
 U 1 1 4F1A580E
 P 4550 2650
 F 0 "R10" V 4630 2650 50  0000 C CNN
-F 1 "390" V 4550 2650 50  0000 C CNN
+F 1 "715" V 4550 2650 50  0000 C CNN
 F 2 "SM0805" V 4650 2650 50  0000 C CNN
 	1    4550 2650
 	-1   0    0    1   
@@ -2222,12 +2273,12 @@ L R R11
 U 1 1 4F1900A2
 P 4650 10100
 F 0 "R11" V 4700 10300 50  0000 C CNN
-F 1 "270" V 4650 10100 50  0000 C CNN
+F 1 "330" V 4650 10100 50  0000 C CNN
 F 2 "SM0805" V 4750 10100 50  0000 C CNN
 F 4 "Rohm" H 4650 10100 60  0001 C CNN "Manufacturer"
-F 5 "MCR10EZHF2700" H 4650 10100 60  0001 C CNN "Manufacturer P/N"
+F 5 "MCR10ERTF3300" H 4650 10100 60  0001 C CNN "Manufacturer P/N"
 F 6 "Digikey" H 4650 10100 60  0001 C CNN "Vendor"
-F 7 "RHM270CCT-ND" H 4650 10100 60  0001 C CNN "Vendor P/N"
+F 7 "RHM330CHCT-ND" H 4650 10100 60  0001 C CNN "Vendor P/N"
 	1    4650 10100
 	0    -1   -1   0   
 $EndComp
@@ -2395,10 +2446,10 @@ U 1 1 4F18BDF0
 P 3100 1200
 F 0 "C5" H 3150 1300 50  0000 L CNN
 F 1 "10uF" H 3150 1100 50  0000 L CNN
-F 2 "SM0805" H 3100 1200 60  0000 C CNN
-F 4 "AVX" H 3100 1200 60  0001 C CNN "Manufacturer"
-F 5 "0805YD106KAT2A" H 3100 1200 60  0001 C CNN "Manufacturer P/N"
-F 6 "478-5165-1-ND" H 3100 1200 60  0001 C CNN "Digikey P/N"
+F 2 "SM1210" H 3100 1200 60  0000 C CNN
+F 4 "Taiyo Yuden" H 3100 1200 60  0001 C CNN "Manufacturer"
+F 5 "UMK325AB7106MM-T" H 3100 1200 60  0001 C CNN "Manufacturer P/N"
+F 6 "587-3166-1-ND" H 3100 1200 60  0001 C CNN "Digikey P/N"
 F 7 "10uF 16V" H 3100 1200 60  0001 C CNN "Description"
 	1    3100 1200
 	1    0    0    -1  

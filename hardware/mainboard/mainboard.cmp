@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Sun 01 Apr 2012 20:57:20 NZST
+Cmp-Mod V01 Created by CvPcb (2012-01-24 BZR 3378)-stable date = Sun 17 Jun 2012 21:33:38 NZST
 
 BeginCmp
 TimeStamp = /4F1D2E7E;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /4F18BDF0;
 Reference = C5;
 ValeurCmp = 10uF;
-IdModule  = SM0805;
+IdModule  = SM1210;
 EndCmp
 
 BeginCmp
@@ -379,6 +379,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4FDDA573;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F1A5228;
 Reference = R9;
 ValeurCmp = 390;
@@ -388,21 +395,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1A580E;
 Reference = R10;
-ValeurCmp = 390;
+ValeurCmp = 715;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1900A2;
 Reference = R11;
-ValeurCmp = 270;
+ValeurCmp = 330;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F3DD78C;
 Reference = R12;
-ValeurCmp = 270;
+ValeurCmp = 330;
 IdModule  = SM0805;
 EndCmp
 
@@ -438,6 +445,27 @@ BeginCmp
 TimeStamp = /4F607304;
 Reference = R17;
 ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDDA768;
+Reference = R18;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDDA949;
+Reference = R19;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDDAB2A;
+Reference = R20;
+ValeurCmp = 1k;
 IdModule  = SM0805;
 EndCmp
 
@@ -535,21 +563,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1B5295;
 Reference = U11;
-ValeurCmp = 5MM_HOLE;
+ValeurCmp = 4MM_HOLE;
 IdModule  = 4mm_clearance_hole;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1B52CC;
 Reference = U12;
-ValeurCmp = 5MM_HOLE;
+ValeurCmp = 4MM_HOLE;
 IdModule  = 4mm_clearance_hole;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1B52D4;
 Reference = U13;
-ValeurCmp = 5MM_HOLE;
+ValeurCmp = 4MM_HOLE;
 IdModule  = 4mm_clearance_hole;
 EndCmp
 
@@ -563,7 +591,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1B52F8;
 Reference = U15;
-ValeurCmp = 5MM_HOLE;
+ValeurCmp = 4MM_HOLE;
 IdModule  = 4mm_clearance_hole;
 EndCmp
 
