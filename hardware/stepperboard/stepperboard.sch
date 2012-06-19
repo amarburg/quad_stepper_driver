@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 18 Jun 2012 15:53:16 NZST
+EESchema Schematic File Version 2  date Tue 19 Jun 2012 15:13:06 NZST
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -37,13 +37,14 @@ LIBS:my_power
 LIBS:my_conn
 LIBS:my_ftdi
 LIBS:misc
+LIBS:stepperboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "18 jun 2012"
+Date "19 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -51,6 +52,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5900 1150
+Connection ~ 5650 1150
+Connection ~ 5150 1150
+Connection ~ 6400 1150
 Connection ~ 5900 1700
 Connection ~ 5650 1700
 Wire Wire Line
@@ -1651,16 +1656,6 @@ F 0 "U13" H 14850 10400 60  0000 C CNN
 F 1 "4MM_HOLE" H 14850 10400 60  0000 C CNN
 F 2 "4mm_clearance_hole" H 14850 10500 60  0000 C CNN
 	1    14850 10400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 5MM_HOLE U12
-U 1 1 4F1B52CC
-P 14400 10400
-F 0 "U12" H 14400 10400 60  0000 C CNN
-F 1 "4MM_HOLE" H 14400 10400 60  0000 C CNN
-F 2 "4mm_clearance_hole" H 14400 10500 60  0000 C CNN
-	1    14400 10400
 	1    0    0    -1  
 $EndComp
 $Comp

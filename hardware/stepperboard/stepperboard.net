@@ -1,474 +1,404 @@
-# EESchema Netlist Version 1.1 created  Mon 18 Jun 2012 15:53:05 NZST
+# EESchema Netlist Version 1.1 created  Tue 19 Jun 2012 15:07:19 NZST
 (
- ( /4F1D1B0A cap_polarized_5mm_leads_10mm_od C1 100uF_50V
-  ( 1 VPP )
-  ( 2 GNDPWR )
- )
- ( /4F48A227 SM0805 C2 0.22_uF_25V
-  ( 1 N-000005 )
-  ( 2 GNDPWR )
- )
- ( /4F48A1DA SM0805 C3 0.1_uF
-  ( 1 VCC )
-  ( 2 DGND )
- )
- ( /4F1D29D3 SM0805 C4 1uF
-  ( 1 VCC )
-  ( 2 DGND )
- )
- ( /4F18BDF0 cap_polarized_2mm_leads_5mm_od C5 10uF_50V
-  ( 1 VPP )
-  ( 2 GNDPWR )
- )
- ( /4F1D29DD SM0805 C6 1uF
-  ( 1 VCC )
-  ( 2 DGND )
- )
- ( /4F48A233 SM0805 C7 0.1_uF
-  ( 1 /MOT1_VPP )
-  ( 2 N-000003 )
- )
- ( /4F1D29E7 SM0805 C8 1uF
-  ( 1 VCC )
-  ( 2 DGND )
- )
- ( /4F48A22D SM0805 C9 0.1_uF
-  ( 1 N-000004 )
-  ( 2 N-000002 )
- )
- ( /4F48A1BB SM0805 C10 0.1_uF
-  ( 1 /MOT1_VPP )
-  ( 2 GNDPWR )
- )
- ( /4F48A1B5 cap_polarized_2mm_leads_5mm_od C11 10uF_50V
-  ( 1 /MOT1_VPP )
-  ( 2 GNDPWR )
- )
- ( /4F716CF2 SM0805 C12 0.22uF_25V
-  ( 1 N-000030 )
-  ( 2 GNDPWR )
- )
- ( /4F716D3F SM0805 C13 0.1_uF
-  ( 1 VCC )
-  ( 2 DGND )
- )
- ( /4F1B5759 SM0805 C14 1uF
-  ( 1 VCC )
-  ( 2 DGND )
- )
- ( /4F716CE6 SM0805 C15 0.1_uF
-  ( 1 /MOT2_VPP )
-  ( 2 N-000029 )
- )
- ( /4F716CEC SM0805 C16 0.1_uF
-  ( 1 N-000019 )
-  ( 2 N-000015 )
- )
- ( /4F716D57 SM0805 C17 0.1_uF
-  ( 1 /MOT2_VPP )
-  ( 2 GNDPWR )
- )
- ( /4F716D5D cap_polarized_2mm_leads_5mm_od C18 10uF_50V
-  ( 1 /MOT2_VPP )
-  ( 2 GNDPWR )
- )
- ( /4F7D405A cap_polarized_5mm_leads_10mm_od C19 100uF
-  ( 1 /MOT1_VPP )
-  ( 2 GNDPWR )
- )
- ( /4F7D42A7 cap_polarized_5mm_leads_10mm_od C20 100uF
-  ( 1 /MOT2_VPP )
-  ( 2 GNDPWR )
- )
- ( /4F1A7183 Diode-SMA_Handsoldering_RevA_27July2010 D1 SCHOTTKY_3A_40V
-  ( 1 N-000039 )
-  ( 2 VPP )
- )
- ( /4F716D86 SM0805 D2 LED
-  ( 1 N-000056 )
-  ( 2 DGND )
- )
- ( /4F3DDE2B SM0805 D3 LED
-  ( 1 N-000053 )
-  ( 2 DGND )
- )
- ( /4F7171F6 SM0805 D4 LED
-  ( 1 N-000041 )
-  ( 2 DGND )
- )
- ( /4F3DDF2B SM0805 D5 LED
-  ( 1 N-000044 )
-  ( 2 DGND )
- )
- ( /4F18B534 SM0805 L2 FERRITE
-  ( 1 GNDPWR )
-  ( 2 DGND )
- )
- ( /4F1A6D5D Phoenix_MSTBA_2 P1 POWER_IN
-  ( 1 N-000039 )
-  ( 2 GNDPWR )
- )
- ( /4F1B4A43 SIL-1 P2 TST
-  ( 1 GNDPWR )
- )
- ( /4F717DBB SIL-1 P3 TST
-  ( 1 /REFA )
- )
- ( /4F716ACE Phoenix_IC_2 P4 POWER_OUT
-  ( 1 VPP )
-  ( 2 GNDPWR )
- )
- ( /4F48A1C1 Phoenix_MC_4_3.5 P5 CONN_4
-  ( 1 /OUT2B )
-  ( 2 /OUT2A )
-  ( 3 /OUT1A )
-  ( 4 /OUT1B )
- )
- ( /4F48AFCD pin_array_13x2 P6 CONN_13X2
-  ( 1 VPP )
-  ( 2 DGND )
-  ( 3 VPP )
-  ( 4 DGND )
-  ( 5 /MOT1_STEP )
-  ( 6 DGND )
-  ( 7 /MOT1_DIR )
-  ( 8 DGND )
-  ( 9 /SPI_MOSI )
-  ( 10 /MOT1_ISENSE )
-  ( 11 /SPI_SCK )
-  ( 12 DGND )
-  ( 13 /SPI_CS )
-  ( 14 DGND )
-  ( 15 /SHIFT_REG_ENABLE )
-  ( 16 DGND )
-  ( 17 /SPI_CHAIN )
-  ( 18 /MOT2_ISENSE )
-  ( 19 /MOT2_STEP )
-  ( 20 DGND )
-  ( 21 /MOT2_DIR )
-  ( 22 DGND )
-  ( 23 VCC )
-  ( 24 DGND )
-  ( 25 VCC )
-  ( 26 DGND )
- )
- ( /4F716D51 Phoenix_MC_4_3.5 P7 CONN_4
-  ( 1 /2_OUT2B )
-  ( 2 /2_OUT2A )
-  ( 3 /2_OUT1A )
-  ( 4 /2_OUT1B )
- )
- ( /4F48A221 SM0805 R1 10k
-  ( 1 VCC )
-  ( 2 /MOT1_SLEEP )
- )
- ( /4F48A1F2 SM0805 R2 10k
-  ( 1 VCC )
-  ( 2 /MOT1_RESET )
- )
- ( /4F48A219 SM0805 R3 10k
-  ( 1 VCC )
-  ( 2 /MOT1_ENABLE )
- )
- ( /4F48A1EC SM0805 R4 0
-  ( 1 VCC )
-  ( 2 N-000050 )
- )
- ( /4F48A1E6 SM0805 R5 n/p
-  ( 1 N-000050 )
-  ( 2 GNDPWR )
- )
- ( /4F23FCA4 SM1210 R6 50m_1/3W
-  ( 1 /MOT2_VPP )
-  ( 2 VPP )
- )
- ( /4F2405E7 SM0805 R7 3k
-  ( 1 DGND )
-  ( 2 /MOT2_ISENSE )
- )
- ( /4F23FCBF SM1210 R8 50m_1/3W
-  ( 1 VPP )
-  ( 2 /MOT1_VPP )
- )
- ( /4F240602 SM0805 R9 3k
-  ( 1 DGND )
-  ( 2 /MOT1_ISENSE )
- )
- ( /4F48A20D SM1210 R10 0.05_1/4W
-  ( 1 GNDPWR )
-  ( 2 N-000012 )
- )
- ( /4F716CF8 SM0805 R11 10k
-  ( 1 VCC )
-  ( 2 /MOT2_SLEEP )
- )
- ( /4F716D27 SM0805 R12 10k
-  ( 1 VCC )
-  ( 2 /MOT2_RESET )
- )
- ( /4F716D00 SM0805 R13 10k
-  ( 1 VCC )
-  ( 2 /MOT2_ENABLE )
- )
- ( /4F7176EA SM0805 R14 330
-  ( 1 N-000036 )
-  ( 2 N-000056 )
- )
- ( /4F1B31A3 SM0805 R15 10k
-  ( 1 VCC )
-  ( 2 /SHIFT_REG_ENABLE )
- )
- ( /4F716D2D SM0805 R16 0
-  ( 1 VCC )
-  ( 2 N-000031 )
- )
- ( /4F716D33 SM0805 R17 n/p
-  ( 1 N-000031 )
-  ( 2 GNDPWR )
- )
- ( /4F1C168C SM0805 R18 10k
-  ( 1 /MOT1_MS3 )
-  ( 2 DGND )
- )
- ( /4F1C16A7 SM0805 R19 330
-  ( 1 N-000054 )
-  ( 2 N-000053 )
- )
- ( /4F7175A7 SM0805 R20 10k
-  ( 1 /MOT2_MS3 )
-  ( 2 DGND )
- )
- ( /4F1C1746 SM0805 R21 330
-  ( 1 N-000046 )
-  ( 2 N-000041 )
- )
- ( /4F1C1761 SM0805 R22 330
-  ( 1 N-000047 )
-  ( 2 N-000044 )
- )
- ( /4F7181AE SM1210 R23 0.05_1/4W
-  ( 1 GNDPWR )
-  ( 2 N-000062 )
- )
- ( /4F7181E7 SM1210 R24 0.05_1/4W
-  ( 1 GNDPWR )
-  ( 2 N-000064 )
- )
- ( /4F7C193A SM1210 R25 0.05_1/4W
-  ( 1 GNDPWR )
-  ( 2 N-000009 )
- )
- ( /4FDEA2FA SM0805 R26 100_1/4W
-  ( 1 N-000035 )
-  ( 2 VPP )
- )
- ( /4FDEA2FF SM0805 R27 100_1/4W
-  ( 1 N-000034 )
-  ( 2 VPP )
- )
- ( /4F717922 PV36W_pot RV1 POT
-  ( 1 DGND )
-  ( 2 /REFA )
-  ( 3 VCC )
- )
- ( /4F48A23F A4982_TSSOP24_with_pad U1 A4982
-  ( 1 N-000004 )
-  ( 2 N-000002 )
-  ( 3 N-000003 )
-  ( 4 N-000005 )
-  ( 5 /MOT1_MS1 )
-  ( 6 /MOT1_MS2 )
-  ( 7 /MOT1_RESET )
-  ( 8 N-000050 )
-  ( 9 /MOT1_SLEEP )
-  ( 10 VCC )
-  ( 11 /MOT1_STEP )
-  ( 12 /REFA )
-  ( 13 GNDPWR )
-  ( 14 /MOT1_DIR )
-  ( 15 /OUT1B )
-  ( 16 /MOT1_VPP )
-  ( 17 N-000012 )
-  ( 18 /OUT1A )
-  ( 19 /OUT2A )
-  ( 20 N-000009 )
-  ( 21 /MOT1_VPP )
-  ( 22 /OUT2B )
-  ( 23 /MOT1_ENABLE )
-  ( 24 GNDPWR )
-  ( P GNDPWR )
- )
- ( /4F23FB90 MSOP_8 U2 LTC6103
-  ( 1 /MOT2_ISENSE )
-  ( 2 /MOT1_ISENSE )
-  ( 3 ? )
-  ( 4 DGND )
-  ( 5 /MOT1_VPP )
-  ( 6 N-000034 )
-  ( 7 N-000035 )
-  ( 8 /MOT2_VPP )
- )
- ( /4F3DE200 SO16E U3 74HC595
-  ( 1 /MOT2_MS2 )
-  ( 2 /MOT2_MS3 )
-  ( 3 /MOT2_SLEEP )
-  ( 4 /MOT2_RESET )
-  ( 5 /MOT2_ENABLE )
-  ( 6 N-000046 )
-  ( 7 N-000047 )
-  ( 8 DGND )
-  ( 9 /SPI_CHAIN )
-  ( 10 VCC )
-  ( 11 /SPI_SCK )
-  ( 12 /SPI_CS )
-  ( 13 /SHIFT_REG_ENABLE )
-  ( 14 N-000038 )
-  ( 15 /MOT2_MS1 )
-  ( 16 VCC )
- )
- ( /4F716CDA A4982_TSSOP24_with_pad U4 A4982
-  ( 1 N-000019 )
-  ( 2 N-000015 )
-  ( 3 N-000029 )
-  ( 4 N-000030 )
-  ( 5 /MOT2_MS1 )
-  ( 6 /MOT2_MS2 )
-  ( 7 /MOT2_RESET )
-  ( 8 N-000031 )
-  ( 9 /MOT2_SLEEP )
-  ( 10 VCC )
-  ( 11 /MOT2_STEP )
-  ( 12 /REFA )
-  ( 13 GNDPWR )
-  ( 14 /MOT2_DIR )
-  ( 15 /2_OUT1B )
-  ( 16 /MOT2_VPP )
-  ( 17 N-000062 )
-  ( 18 /2_OUT1A )
-  ( 19 /2_OUT2A )
-  ( 20 N-000064 )
-  ( 21 /MOT2_VPP )
-  ( 22 /2_OUT2B )
-  ( 23 /MOT2_ENABLE )
-  ( 24 GNDPWR )
-  ( P GNDPWR )
- )
- ( /4F1B0989 SO16E U6 74HC595
-  ( 1 /MOT1_MS2 )
-  ( 2 /MOT1_MS3 )
-  ( 3 /MOT1_SLEEP )
-  ( 4 /MOT1_RESET )
-  ( 5 /MOT1_ENABLE )
-  ( 6 N-000036 )
-  ( 7 N-000054 )
-  ( 8 DGND )
-  ( 9 N-000038 )
-  ( 10 VCC )
-  ( 11 /SPI_SCK )
-  ( 12 /SPI_CS )
-  ( 13 /SHIFT_REG_ENABLE )
-  ( 14 /SPI_MOSI )
-  ( 15 /MOT1_MS1 )
-  ( 16 VCC )
- )
- ( /4F1B5295 4mm_clearance_hole U11 4MM_HOLE
- )
- ( /4F1B52CC 4mm_clearance_hole U12 4MM_HOLE
- )
- ( /4F1B52D4 4mm_clearance_hole U13 4MM_HOLE
- )
- ( /4F1B6705 OSHW_10mm U14 OHSW_LOGO
- )
- ( /4F1B52F8 4mm_clearance_hole U15 4MM_HOLE
+ ( /4FDEA2FF SM0805  R27 100_1/4W {Lib=R}
+  (    1 N-000037 )
+  (    2 VPP )
+ )
+ ( /4FDEA2FA SM0805  R26 100_1/4W {Lib=R}
+  (    1 N-000038 )
+  (    2 VPP )
+ )
+ ( /4F7D42A7 cap_polarized_5mm_leads_10mm_od  C20 100uF {Lib=C}
+  (    1 /MOT2_VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F7D405A cap_polarized_5mm_leads_10mm_od  C19 100uF {Lib=C}
+  (    1 /MOT1_VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F7C193A SM1210  R25 0.05_1/3W {Lib=R}
+  (    1 GNDPWR )
+  (    2 N-000010 )
+ )
+ ( /4F7181E7 SM1210  R24 0.05_1/3W {Lib=R}
+  (    1 GNDPWR )
+  (    2 N-000033 )
+ )
+ ( /4F7181AE SM1210  R23 0.05_1/3W {Lib=R}
+  (    1 GNDPWR )
+  (    2 N-000062 )
+ )
+ ( /4F717DBB SIL-1  P3 TST {Lib=TST}
+  (    1 /REFA )
+ )
+ ( /4F717922 PV36W_pot  RV1 POT {Lib=POT}
+  (    1 DGND )
+  (    2 /REFA )
+  (    3 VCC )
+ )
+ ( /4F7176EA SM0805  R14 330 {Lib=R}
+  (    1 N-000039 )
+  (    2 N-000059 )
+ )
+ ( /4F7175A7 SM0805  R20 10k {Lib=R}
+  (    1 /MOT2_MS3 )
+  (    2 DGND )
+ )
+ ( /4F7171F6 SM0805  D4 LED {Lib=LED}
+  (    1 N-000044 )
+  (    2 DGND )
+ )
+ ( /4F716D86 SM0805  D2 LED {Lib=LED}
+  (    1 N-000059 )
+  (    2 DGND )
+ )
+ ( /4F716D5D cap_polarized_2mm_leads_5mm_od  C18 10uF_50V {Lib=C}
+  (    1 /MOT2_VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F716D57 SM0805  C17 0.1_uF {Lib=C}
+  (    1 /MOT2_VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F716D51 Phoenix_MC_4_3.5  P7 CONN_4 {Lib=CONN_4}
+  (    1 /2_OUT2B )
+  (    2 /2_OUT2A )
+  (    3 /2_OUT1A )
+  (    4 /2_OUT1B )
+ )
+ ( /4F716D3F SM0805  C13 0.1_uF {Lib=C}
+  (    1 VCC )
+  (    2 DGND )
+ )
+ ( /4F716D33 SM0805  R17 n/p {Lib=R}
+  (    1 N-000031 )
+  (    2 GNDPWR )
+ )
+ ( /4F716D2D SM0805  R16 0 {Lib=R}
+  (    1 VCC )
+  (    2 N-000031 )
+ )
+ ( /4F716D27 SM0805  R12 10k {Lib=R}
+  (    1 VCC )
+  (    2 /MOT2_RESET )
+ )
+ ( /4F716D00 SM0805  R13 10k {Lib=R}
+  (    1 VCC )
+  (    2 /MOT2_ENABLE )
+ )
+ ( /4F716CF8 SM0805  R11 10k {Lib=R}
+  (    1 VCC )
+  (    2 /MOT2_SLEEP )
+ )
+ ( /4F716CF2 SM0805  C12 0.22uF_25V {Lib=C}
+  (    1 N-000030 )
+  (    2 GNDPWR )
+ )
+ ( /4F716CEC SM0805  C16 0.1_uF {Lib=C}
+  (    1 N-000028 )
+  (    2 N-000016 )
+ )
+ ( /4F716CE6 SM0805  C15 0.1_uF {Lib=C}
+  (    1 /MOT2_VPP )
+  (    2 N-000029 )
+ )
+ ( /4F716CDA A4982_TSSOP24_with_pad  U4 A4982 {Lib=A4982}
+  (    1 N-000028 )
+  (    2 N-000016 )
+  (    3 N-000029 )
+  (    4 N-000030 )
+  (    5 /MOT2_MS1 )
+  (    6 /MOT2_MS2 )
+  (    7 /MOT2_RESET )
+  (    8 N-000031 )
+  (    9 /MOT2_SLEEP )
+  (   10 VCC )
+  (   11 /MOT2_STEP )
+  (   12 /REFA )
+  (   13 GNDPWR )
+  (   14 /MOT2_DIR )
+  (   15 /2_OUT1B )
+  (   16 /MOT2_VPP )
+  (   17 N-000062 )
+  (   18 /2_OUT1A )
+  (   19 /2_OUT2A )
+  (   20 N-000033 )
+  (   21 /MOT2_VPP )
+  (   22 /2_OUT2B )
+  (   23 /MOT2_ENABLE )
+  (   24 GNDPWR )
+  (    P GNDPWR )
+ )
+ ( /4F716ACE Phoenix_IC_2  P4 POWER_OUT {Lib=CONN_2}
+  (    1 VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F48AFCD pin_array_13x2  P6 CONN_13X2 {Lib=CONN_13X2}
+  (    1 VPP )
+  (    2 DGND )
+  (    3 VPP )
+  (    4 DGND )
+  (    5 /MOT1_STEP )
+  (    6 DGND )
+  (    7 /MOT1_DIR )
+  (    8 DGND )
+  (    9 /SPI_MOSI )
+  (   10 /MOT1_ISENSE )
+  (   11 /SPI_SCK )
+  (   12 DGND )
+  (   13 /SPI_CS )
+  (   14 DGND )
+  (   15 /SHIFT_REG_ENABLE )
+  (   16 DGND )
+  (   17 /SPI_CHAIN )
+  (   18 /MOT2_ISENSE )
+  (   19 /MOT2_STEP )
+  (   20 DGND )
+  (   21 /MOT2_DIR )
+  (   22 DGND )
+  (   23 VCC )
+  (   24 DGND )
+  (   25 VCC )
+  (   26 DGND )
+ )
+ ( /4F48A23F A4982_TSSOP24_with_pad  U1 A4982 {Lib=A4982}
+  (    1 N-000005 )
+  (    2 N-000003 )
+  (    3 N-000009 )
+  (    4 N-000006 )
+  (    5 /MOT1_MS1 )
+  (    6 /MOT1_MS2 )
+  (    7 /MOT1_RESET )
+  (    8 N-000058 )
+  (    9 /MOT1_SLEEP )
+  (   10 VCC )
+  (   11 /MOT1_STEP )
+  (   12 /REFA )
+  (   13 GNDPWR )
+  (   14 /MOT1_DIR )
+  (   15 /OUT1B )
+  (   16 /MOT1_VPP )
+  (   17 N-000007 )
+  (   18 /OUT1A )
+  (   19 /OUT2A )
+  (   20 N-000010 )
+  (   21 /MOT1_VPP )
+  (   22 /OUT2B )
+  (   23 /MOT1_ENABLE )
+  (   24 GNDPWR )
+  (    P GNDPWR )
+ )
+ ( /4F48A233 SM0805  C7 0.1_uF {Lib=C}
+  (    1 /MOT1_VPP )
+  (    2 N-000009 )
+ )
+ ( /4F48A22D SM0805  C9 0.1_uF {Lib=C}
+  (    1 N-000005 )
+  (    2 N-000003 )
+ )
+ ( /4F48A227 SM0805  C2 0.22_uF_25V {Lib=C}
+  (    1 N-000006 )
+  (    2 GNDPWR )
+ )
+ ( /4F48A221 SM0805  R1 10k {Lib=R}
+  (    1 VCC )
+  (    2 /MOT1_SLEEP )
+ )
+ ( /4F48A219 SM0805  R3 10k {Lib=R}
+  (    1 VCC )
+  (    2 /MOT1_ENABLE )
+ )
+ ( /4F48A20D SM1210  R10 0.05_1/3W {Lib=R}
+  (    1 GNDPWR )
+  (    2 N-000007 )
+ )
+ ( /4F48A1F2 SM0805  R2 10k {Lib=R}
+  (    1 VCC )
+  (    2 /MOT1_RESET )
+ )
+ ( /4F48A1EC SM0805  R4 0 {Lib=R}
+  (    1 VCC )
+  (    2 N-000058 )
+ )
+ ( /4F48A1E6 SM0805  R5 n/p {Lib=R}
+  (    1 N-000058 )
+  (    2 GNDPWR )
+ )
+ ( /4F48A1DA SM0805  C3 0.1_uF {Lib=C}
+  (    1 VCC )
+  (    2 DGND )
+ )
+ ( /4F48A1C1 Phoenix_MC_4_3.5  P5 CONN_4 {Lib=CONN_4}
+  (    1 /OUT2B )
+  (    2 /OUT2A )
+  (    3 /OUT1A )
+  (    4 /OUT1B )
+ )
+ ( /4F48A1BB SM0805  C10 0.1_uF {Lib=C}
+  (    1 /MOT1_VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F48A1B5 cap_polarized_2mm_leads_5mm_od  C11 10uF_50V {Lib=C}
+  (    1 /MOT1_VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F3DE200 SO16E  U3 74HC595 {Lib=74HC595}
+  (    1 /MOT2_MS2 )
+  (    2 /MOT2_MS3 )
+  (    3 /MOT2_SLEEP )
+  (    4 /MOT2_RESET )
+  (    5 /MOT2_ENABLE )
+  (    6 N-000050 )
+  (    7 N-000049 )
+  (    8 DGND )
+  (    9 /SPI_CHAIN )
+  (   10 VCC )
+  (   11 /SPI_SCK )
+  (   12 /SPI_CS )
+  (   13 /SHIFT_REG_ENABLE )
+  (   14 N-000041 )
+  (   15 /MOT2_MS1 )
+  (   16 VCC )
+ )
+ ( /4F3DDE2B SM0805  D3 LED {Lib=LED}
+  (    1 N-000055 )
+  (    2 DGND )
+ )
+ ( /4F1D29E7 SM0805  C8 1uF {Lib=C}
+  (    1 VCC )
+  (    2 DGND )
+ )
+ ( /4F1D29DD SM0805  C6 1uF {Lib=C}
+  (    1 VCC )
+  (    2 DGND )
+ )
+ ( /4F1D29D3 SM0805  C4 1uF {Lib=C}
+  (    1 VCC )
+  (    2 DGND )
+ )
+ ( /4F1C16A7 SM0805  R19 330 {Lib=R}
+  (    1 N-000056 )
+  (    2 N-000055 )
+ )
+ ( /4F1C168C SM0805  R18 10k {Lib=R}
+  (    1 /MOT1_MS3 )
+  (    2 DGND )
+ )
+ ( /4F1B5759 SM0805  C14 1uF {Lib=C}
+  (    1 VCC )
+  (    2 DGND )
+ )
+ ( /4F1B31A3 SM0805  R15 10k {Lib=R}
+  (    1 VCC )
+  (    2 /SHIFT_REG_ENABLE )
+ )
+ ( /4F1B0989 SO16E  U6 74HC595 {Lib=74HC595}
+  (    1 /MOT1_MS2 )
+  (    2 /MOT1_MS3 )
+  (    3 /MOT1_SLEEP )
+  (    4 /MOT1_RESET )
+  (    5 /MOT1_ENABLE )
+  (    6 N-000039 )
+  (    7 N-000056 )
+  (    8 DGND )
+  (    9 N-000041 )
+  (   10 VCC )
+  (   11 /SPI_SCK )
+  (   12 /SPI_CS )
+  (   13 /SHIFT_REG_ENABLE )
+  (   14 /SPI_MOSI )
+  (   15 /MOT1_MS1 )
+  (   16 VCC )
+ )
+ ( /4F3DDF2B SM0805  D5 LED {Lib=LED}
+  (    1 N-000047 )
+  (    2 DGND )
+ )
+ ( /4F240602 SM0805  R9 3k {Lib=R}
+  (    1 DGND )
+  (    2 /MOT1_ISENSE )
+ )
+ ( /4F2405E7 SM0805  R7 3k {Lib=R}
+  (    1 DGND )
+  (    2 /MOT2_ISENSE )
+ )
+ ( /4F23FCBF SM1210  R8 50m_1/3W {Lib=R}
+  (    1 VPP )
+  (    2 /MOT1_VPP )
+ )
+ ( /4F23FCA4 SM1210  R6 50m_1/3W {Lib=R}
+  (    1 /MOT2_VPP )
+  (    2 VPP )
+ )
+ ( /4F23FB90 MSOP_8  U2 LTC6103 {Lib=LTC6103}
+  (    1 /MOT2_ISENSE )
+  (    2 /MOT1_ISENSE )
+  (    3 ? )
+  (    4 DGND )
+  (    5 /MOT1_VPP )
+  (    6 N-000037 )
+  (    7 N-000038 )
+  (    8 /MOT2_VPP )
+ )
+ ( /4F1D1B0A cap_polarized_5mm_leads_10mm_od  C1 100uF_50V {Lib=CP1}
+  (    1 VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F1C1761 SM0805  R22 330 {Lib=R}
+  (    1 N-000049 )
+  (    2 N-000047 )
+ )
+ ( /4F1C1746 SM0805  R21 330 {Lib=R}
+  (    1 N-000050 )
+  (    2 N-000044 )
+ )
+ ( /4F1B6705 OSHW_10mm  U14 OHSW_LOGO {Lib=OHSW_LOGO}
+ )
+ ( /4F1B52F8 4mm_clearance_hole  U15 4MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B52D4 4mm_clearance_hole  U13 4MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B52CC 4mm_clearance_hole  U12 4MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B5295 4mm_clearance_hole  U11 4MM_HOLE {Lib=5MM_HOLE}
+ )
+ ( /4F1B4A43 SIL-1  P2 TST {Lib=TST}
+  (    1 GNDPWR )
+ )
+ ( /4F1A7183 Diode-SMA_Handsoldering_RevA_27July2010  D1 SCHOTTKY_3A_40V {Lib=DIODE}
+  (    1 N-000042 )
+  (    2 VPP )
+ )
+ ( /4F1A6D5D Phoenix_MSTBA_2  P1 POWER_IN {Lib=CONN_2}
+  (    1 N-000042 )
+  (    2 GNDPWR )
+ )
+ ( /4F18BDF0 cap_polarized_2mm_leads_5mm_od  C5 10uF_50V {Lib=C}
+  (    1 VPP )
+  (    2 GNDPWR )
+ )
+ ( /4F18B534 SM0805  L2 FERRITE {Lib=INDUCTOR}
+  (    1 GNDPWR )
+  (    2 DGND )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- CP*
- SM*
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component C2
- SM*
- C?
- C1-1
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C12
- SM*
- C?
- C1-1
-$endlist
-$component C13
- SM*
- C?
- C1-1
-$endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
-$component C15
- SM*
- C?
- C1-1
-$endlist
-$component C16
- SM*
- C?
- C1-1
-$endlist
-$component C17
- SM*
- C?
- C1-1
-$endlist
-$component C18
+$component C20
  SM*
  C?
  C1-1
@@ -478,32 +408,40 @@ $component C19
  C?
  C1-1
 $endlist
-$component C20
- SM*
- C?
- C1-1
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component D1
- D?
- S*
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component D4
  LED-3MM
@@ -514,7 +452,7 @@ $component D4
  LED-1206
  LEDV
 $endlist
-$component D5
+$component D2
  LED-3MM
  LED-5MM
  LED-10MM
@@ -523,77 +461,29 @@ $component D5
  LED-1206
  LEDV
 $endlist
-$component R1
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component R17
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R11
+$component R16
  R?
  SM0603
  SM0805
@@ -614,28 +504,125 @@ $component R13
  R?-*
  SM1206
 $endlist
-$component R14
+$component R11
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R15
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R16
+$component R3
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R17
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R19
  R?
  SM0603
  SM0805
@@ -649,14 +636,60 @@ $component R18
  R?-*
  SM1206
 $endlist
-$component R19
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component R15
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R20
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component R22
  R?
  SM0603
  SM0805
@@ -670,47 +703,319 @@ $component R21
  R?-*
  SM1206
 $endlist
-$component R22
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component D1
+ D?
+ S*
 $endlist
-$component R23
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R24
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R25
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R26
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R27
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C5
+ SM*
+ C?
+ C1-1
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "/MOT1_ISENSE" "MOT1_ISENSE"
+ P6 10
+ R9 2
+ U2 2
+Net 2 "/SHIFT_REG_ENABLE" "SHIFT_REG_ENABLE"
+ U6 13
+ U3 13
+ P6 15
+ R15 2
+Net 3 "" ""
+ U1 2
+ C9 2
+Net 4 "VPP" "VPP"
+ C1 1
+ R26 2
+ P6 1
+ P6 3
+ R6 2
+ R27 2
+ P4 1
+ C5 1
+ R8 1
+ D1 2
+Net 5 "" ""
+ U1 1
+ C9 1
+Net 6 "" ""
+ U1 4
+ C2 1
+Net 7 "" ""
+ R10 2
+ U1 17
+Net 8 "/OUT1A" "OUT1A"
+ P5 3
+ U1 18
+Net 9 "" ""
+ C7 2
+ U1 3
+Net 10 "" ""
+ U1 20
+ R25 2
+Net 11 "/MOT2_ISENSE" "MOT2_ISENSE"
+ U2 1
+ R7 2
+ P6 18
+Net 12 "/MOT1_VPP" "MOT1_VPP"
+ R8 2
+ U2 5
+ C19 1
+ C11 1
+ C10 1
+ U1 21
+ U1 16
+ C7 1
+Net 13 "/OUT1B" "OUT1B"
+ P5 4
+ U1 15
+Net 14 "/MOT2_ENABLE" "MOT2_ENABLE"
+ U4 23
+ U3 5
+ R13 2
+Net 15 "/MOT2_SLEEP" "MOT2_SLEEP"
+ U3 3
+ U4 9
+ R11 2
+Net 16 "" ""
+ U4 2
+ C16 2
+Net 17 "/MOT2_VPP" "MOT2_VPP"
+ R6 1
+ U2 8
+ C20 1
+ U4 21
+ C18 1
+ C15 1
+ C17 1
+ U4 16
+Net 18 "/2_OUT1B" "2_OUT1B"
+ P7 4
+ U4 15
+Net 19 "GNDPWR" "GNDPWR"
+ C2 2
+ C5 2
+ R10 1
+ L2 1
+ P1 2
+ U1 24
+ U1 13
+ C10 2
+ R5 2
+ C12 2
+ C11 2
+ U1 P
+ P2 1
+ R17 2
+ C18 2
+ R23 1
+ U4 13
+ C20 2
+ P4 2
+ U4 24
+ C19 2
+ R25 1
+ R24 1
+ C17 2
+ U4 P
+ C1 2
+Net 20 "/2_OUT1A" "2_OUT1A"
+ U4 18
+ P7 3
+Net 21 "/MOT1_STEP" "MOT1_STEP"
+ U1 11
+ P6 5
+Net 22 "/MOT1_DIR" "MOT1_DIR"
+ P6 7
+ U1 14
+Net 23 "/SPI_MOSI" "SPI_MOSI"
+ P6 9
+ U6 14
+Net 24 "/SPI_SCK" "SPI_SCK"
+ P6 11
+ U6 11
+ U3 11
+Net 25 "/SPI_CS" "SPI_CS"
+ U6 12
+ P6 13
+ U3 12
+Net 26 "/MOT2_DIR" "MOT2_DIR"
+ U4 14
+ P6 21
+Net 27 "/MOT2_STEP" "MOT2_STEP"
+ P6 19
+ U4 11
+Net 28 "" ""
+ C16 1
+ U4 1
+Net 29 "" ""
+ C15 2
+ U4 3
+Net 30 "" ""
+ C12 1
+ U4 4
+Net 31 "" ""
+ U4 8
+ R17 1
+ R16 2
+Net 32 "/OUT2A" "OUT2A"
+ P5 2
+ U1 19
+Net 33 "" ""
+ U4 20
+ R24 2
+Net 34 "/REFA" "REFA"
+ U4 12
+ U1 12
+ P3 1
+ RV1 2
+Net 35 "/2_OUT2B" "2_OUT2B"
+ P7 1
+ U4 22
+Net 37 "" ""
+ U2 6
+ R27 1
+Net 38 "" ""
+ U2 7
+ R26 1
+Net 39 "" ""
+ R14 1
+ U6 6
+Net 40 "DGND" "DGND"
+ P6 24
+ D4 2
+ R20 2
+ RV1 1
+ C14 2
+ C3 2
+ R9 1
+ R7 1
+ U2 4
+ U6 8
+ D5 2
+ U3 8
+ C13 2
+ R18 2
+ D3 2
+ L2 2
+ D2 2
+ C4 2
+ C6 2
+ C8 2
+ P6 20
+ P6 12
+ P6 22
+ P6 14
+ P6 8
+ P6 16
+ P6 26
+ P6 6
+ P6 4
+ P6 2
+Net 41 "" ""
+ U6 9
+ U3 14
+Net 42 "" ""
+ P1 1
+ D1 1
+Net 43 "/MOT1_MS1" "MOT1_MS1"
+ U6 15
+ U1 5
+Net 44 "" ""
+ R21 2
+ D4 1
+Net 45 "/MOT2_MS1" "MOT2_MS1"
+ U3 15
+ U4 5
+Net 46 "/MOT2_MS2" "MOT2_MS2"
+ U3 1
+ U4 6
+Net 47 "" ""
+ R22 2
+ D5 1
+Net 48 "/MOT1_MS2" "MOT1_MS2"
+ U6 1
+ U1 6
+Net 49 "" ""
+ U3 7
+ R22 1
+Net 50 "" ""
+ U3 6
+ R21 1
+Net 51 "/SPI_CHAIN" "SPI_CHAIN"
+ U3 9
+ P6 17
+Net 52 "/MOT1_RESET" "MOT1_RESET"
+ R2 2
+ U6 4
+ U1 7
+Net 53 "VCC" "VCC"
+ U4 10
+ U6 10
+ U6 16
+ R3 1
+ R1 1
+ U1 10
+ R13 1
+ R16 1
+ R12 1
+ R11 1
+ C13 1
+ U3 10
+ R2 1
+ R4 1
+ C3 1
+ U3 16
+ P6 23
+ C14 1
+ R15 1
+ C4 1
+ C8 1
+ C6 1
+ RV1 3
+ P6 25
+Net 54 "/OUT2B" "OUT2B"
+ P5 1
+ U1 22
+Net 55 "" ""
+ R19 2
+ D3 1
+Net 56 "" ""
+ U6 7
+ R19 1
+Net 57 "/MOT1_MS3" "MOT1_MS3"
+ R18 1
+ U6 2
+Net 58 "" ""
+ U1 8
+ R5 1
+ R4 2
+Net 59 "" ""
+ R14 2
+ D2 1
+Net 60 "/MOT1_ENABLE" "MOT1_ENABLE"
+ R3 2
+ U6 5
+ U1 23
+Net 61 "/MOT1_SLEEP" "MOT1_SLEEP"
+ R1 2
+ U6 3
+ U1 9
+Net 62 "" ""
+ R23 2
+ U4 17
+Net 63 "/MOT2_MS3" "MOT2_MS3"
+ R20 1
+ U3 2
+Net 64 "/2_OUT2A" "2_OUT2A"
+ U4 19
+ P7 2
+Net 65 "/MOT2_RESET" "MOT2_RESET"
+ R12 2
+ U3 4
+ U4 7
+}
+#End

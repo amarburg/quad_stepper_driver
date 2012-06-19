@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-05-21 BZR 3261)-stable date = Mon 18 Jun 2012 15:53:05 NZST
+Cmp-Mod V01 Created by CvPcb (2012-05-21 BZR 3261)-stable date = Tue 19 Jun 2012 15:02:59 NZST
 
 BeginCmp
 TimeStamp = /4F1D1B0A;
@@ -297,7 +297,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F48A20D;
 Reference = R10;
-ValeurCmp = 0.05_1/4W;
+ValeurCmp = 0.05_1/3W;
 IdModule  = SM1210;
 EndCmp
 
@@ -388,21 +388,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4F7181AE;
 Reference = R23;
-ValeurCmp = 0.05_1/4W;
+ValeurCmp = 0.05_1/3W;
 IdModule  = SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F7181E7;
 Reference = R24;
-ValeurCmp = 0.05_1/4W;
+ValeurCmp = 0.05_1/3W;
 IdModule  = SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F7C193A;
 Reference = R25;
-ValeurCmp = 0.05_1/4W;
+ValeurCmp = 0.05_1/3W;
 IdModule  = SM1210;
 EndCmp
 
