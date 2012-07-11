@@ -1,3 +1,6 @@
 [submodule "hardware/kicad_libs"]
 	path = hardware/kicad_libs
 	url = git@github.com:amarburg/kicad_libs.git
+[submodule "firmware/libmaple"]
+	path = firmware/libmaple
+	url = git@github.com:amarburg/libmaple.git
